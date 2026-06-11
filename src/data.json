@@ -1,0 +1,213 @@
+{
+  "profile": {
+    "name": "Dr. Arvind Kumar Jha",
+    "title": "Associate Professor",
+    "institution": "IIT Patna",
+    "department": "Department of Civil & Environmental Engineering",
+    "email": "[jhaarvind@iitp.ac.in]",
+    "phone": "+91-6115-233 807",
+    "address": "IIT Patna, Bihar 801106",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en",
+    "resumeUrl": "#",
+    "bio": "Associate Professor at IIT Patna specializing in Civil & Environmental Engineering. Passionate about research, teaching, and solving real-world infrastructure challenges.",
+    "status": "Available for Collaboration",
+    "affiliation": "IIT Patna, Department of Civil & Environmental Engineering",
+    "portrait": "/assets/1769380140192-Arvind_Kr_jha.jpg",
+    "stats": [
+      {
+        "value": "1000+",
+        "label": "Citations"
+      },
+      {
+        "value": "22",
+        "label": "Publications"
+      }
+    ],
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "platform": "Twitter",
+        "href": "#"
+      },
+      {
+        "platform": "GitHub",
+        "href": "#"
+      },
+      {
+        "platform": "YouTube",
+        "href": "#"
+      }
+    ]
+  },
+  "navigation": [
+    "Home",
+    "Research",
+    "Teaching",
+    "Publications",
+    "About",
+    "Contact"
+  ],
+  "focusAreas": [
+    {
+      "icon": "Dna",
+      "title": "Genomics & ML",
+      "desc": "Applying machine learning models to large-scale genomic datasets to uncover hidden biological patterns and disease mechanisms."
+    },
+    {
+      "icon": "Brain",
+      "title": "Neural Circuits",
+      "desc": "Investigating how neural circuit dynamics give rise to complex behaviors using computational and experimental approaches."
+    },
+    {
+      "icon": "FlaskConical",
+      "title": "Computational Biology",
+      "desc": "Building algorithmic frameworks to simulate, analyze, and predict biological processes at the molecular and cellular scale."
+    }
+  ],
+  "labBanner": {
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1400&q=80",
+    "alt": "BioTech Laboratory",
+    "label": "Facilities",
+    "heading": "Explore the BioTech Lab",
+    "ctaLabel": "Request a visit",
+    "ctaHref": "#contact"
+  },
+  "courses": [
+    {
+      "title": "Introduction to Bioinformatics",
+      "code": "CS101",
+      "students": "120+",
+      "rating": "4.9",
+      "level": "Undergrad"
+    },
+    {
+      "title": "Biostatistics & Data Science",
+      "code": "CS203",
+      "students": "80+",
+      "rating": "4.8",
+      "level": "Graduate"
+    },
+    {
+      "title": "Topics in Functional Genomics",
+      "code": "BIO4",
+      "students": "45+",
+      "rating": "4.9",
+      "level": "Graduate"
+    },
+    {
+      "title": "Statistical Methods in Biology",
+      "code": "STAT5",
+      "students": "60+",
+      "rating": "4.7",
+      "level": "Undergrad"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Deep Learning Approaches for Multi-Omics Data Integration in Cancer Genomics",
+      "authors": "Hart, E., Zhang, L., Patel, R., & Kim, J.",
+      "journal": "Nature Methods",
+      "year": "2023",
+      "doi": "https://doi.org/10.1038/s41592-023-01001-1"
+    },
+    {
+      "title": "Scalable Graph Neural Networks for Protein–Protein Interaction Prediction",
+      "authors": "Hart, E., & Müller, T.",
+      "journal": "Cell Systems",
+      "year": "2022",
+      "doi": "https://doi.org/10.1016/j.cels.2022.05.003"
+    },
+    {
+      "title": "Interpretable Machine Learning Models Reveal Novel Biomarkers in Alzheimer's Disease",
+      "authors": "Hart, E., Okafor, S., & Nguyen, P.",
+      "journal": "PLOS Computational Biology",
+      "year": "2021",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1009112"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Computational Biology",
+      "uni": "MIT — Massachusetts Institute of Technology",
+      "years": "2014 – 2019"
+    },
+    {
+      "degree": "M.S. in Bioinformatics",
+      "uni": "Stanford University",
+      "years": "2012 – 2014"
+    },
+    {
+      "degree": "B.S. in Computer Science (Biology minor)",
+      "uni": "UC Berkeley",
+      "years": "2008 – 2012"
+    }
+  ],
+  "educationImage": {
+    "src": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=700&q=80",
+    "alt": "University campus building"
+  },
+  "professionalActivities": [
+    {
+      "icon": "BookOpen",
+      "title": "Editorial Board Member",
+      "desc": "Reviewing manuscripts for Nature Computational Science and Genome Research."
+    },
+    {
+      "icon": "Globe",
+      "title": "Conference Chair",
+      "desc": "Program chair for ISMB 2024 and RECOMB 2023."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "NIH Grant Reviewer",
+      "desc": "Serving on NIH study sections for genomics and computational biology grants."
+    },
+    {
+      "icon": "Pen",
+      "title": "Science Communicator",
+      "desc": "Contributing articles to Quanta Magazine and The Scientist to popularize research."
+    }
+  ],
+  "awards": [
+    {
+      "icon": "Award",
+      "title": "NSF CAREER Award",
+      "year": "2022"
+    },
+    {
+      "icon": "Star",
+      "title": "Nature Rising Star",
+      "year": "2021"
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "MIT Excellence Award",
+      "year": "2019"
+    },
+    {
+      "icon": "BookMarked",
+      "title": "NIH Innovator Award",
+      "year": "2023"
+    }
+  ],
+  "personal": [
+    {
+      "icon": "Mountain",
+      "title": "Avid Hiker",
+      "desc": "Completed the Appalachian Trail in 2020 — 2,190 miles of wilderness that fuels creative problem-solving in the lab."
+    },
+    {
+      "icon": "Music",
+      "title": "Amateur Cellist",
+      "desc": "Playing cello in a local chamber ensemble keeps my mind sharp and reminds me that structure and creativity go hand in hand."
+    },
+    {
+      "icon": "Camera",
+      "title": "Nature Photographer",
+      "desc": "Macro photography of microorganisms bridges my scientific curiosity with a passion for visual storytelling."
+    }
+  ]
+}
