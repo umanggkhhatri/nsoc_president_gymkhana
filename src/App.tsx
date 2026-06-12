@@ -3,7 +3,7 @@ import {
   Menu, X, Dna, Brain, FlaskConical, Users, Star, BarChart2,
   Mail, MapPin, Phone,
   CheckCircle2, Award, BookOpen, Globe, Mountain, Music,
-  Camera, Send, ExternalLink, GraduationCap,
+  Camera, ExternalLink, GraduationCap,
   HeartHandshake, Pen, BookMarked
 } from 'lucide-react'
 import data from './data.json'
@@ -15,16 +15,6 @@ const ICON_MAP: Record<string, React.ElementType> = {
   Award, Star, GraduationCap, BookMarked, Mountain, Music, Camera,
 }
 
-function LinkedInIcon({ className }: { className?: string }) {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect width="4" height="12" x="2" y="9" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  )
-}
 
 // ── Nav items ──────────────────────────────────────────────────────────────────
 const NAV_ITEMS = [
