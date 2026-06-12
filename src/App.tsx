@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import {
   Menu, X, Dna, Brain, FlaskConical, Users, Star, BarChart2,
-  Mail, MapPin, Phone, Download,
+  Mail, MapPin, Phone,
   CheckCircle2, Award, BookOpen, Globe, Mountain, Music,
-  Camera, ChevronRight, Send, ExternalLink, GraduationCap,
-  HeartHandshake, Pen, BookMarked, ArrowRight,
+  Camera, Send, ExternalLink, GraduationCap,
+  HeartHandshake, Pen, BookMarked
 } from 'lucide-react'
 import data from './data.json'
 import iitpLogo from './assets/iitp-logo.png'
@@ -24,10 +24,6 @@ function LinkedInIcon({ className }: { className?: string }) {
       <circle cx="4" cy="4" r="2" />
     </svg>
   )
-}
-
-const SOCIAL_ICON_MAP: Record<string, React.ElementType> = {
-  LinkedIn: LinkedInIcon,
 }
 
 // ── Nav items ──────────────────────────────────────────────────────────────────
@@ -185,11 +181,7 @@ function PublicationsSection() {
                 </a>
               </div>
             </div>
-            <a href="#"
-              className="shrink-0 inline-flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg text-sm font-semibold text-gray-600 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">
-              <Download className="w-4 h-4" />
-              PDF
-            </a>
+
           </div>
         ))}
       </div>
@@ -330,105 +322,43 @@ function MiscellaneousSection() {
 // ── Contact ────────────────────────────────────────────────────────────────────
 function ContactSection() {
   const { profile } = data
-  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
-  const [sent, setSent] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setSent(true)
-    setTimeout(() => setSent(false), 3500)
-    setForm({ name: '', email: '', subject: '', message: '' })
-  }
-
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
-      <SectionHeader title="Let's Collaborate" />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-        {/* Left */}
-        <div>
-          <p className="text-gray-500 leading-relaxed mb-8">
-            Whether you're a student, fellow researcher, industry partner, or simply curious — I'd love to hear from you. Reach out via email or fill in the form.
-          </p>
-          <div className="space-y-4">
-            <a href={`mailto:${profile.email}`} className="flex items-center gap-3 text-gray-600 hover:text-blue-600 transition-colors group">
-              <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors">
-                <Mail className="w-4 h-4 text-blue-600 group-hover:text-white transition-colors" />
-              </div>
-              <span className="text-sm font-medium">{profile.email}</span>
-            </a>
-            <div className="flex items-center gap-3 text-gray-600">
-              <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center shrink-0">
-                <MapPin className="w-4 h-4 text-blue-600" />
-              </div>
-              <span className="text-sm font-medium">{profile.address}</span>
-            </div>
-            <a href={`tel:${profile.phone}`} className="flex items-center gap-3 text-gray-600 hover:text-blue-600 transition-colors group">
-              <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors">
-                <Phone className="w-4 h-4 text-blue-600 group-hover:text-white transition-colors" />
-              </div>
-              <span className="text-sm font-medium">{profile.phone}</span>
-            </a>
-          </div>
-          {/* Social */}
-          <div className="mt-8 flex gap-3">
-            {profile.social.map((s) => {
-              const Icon = SOCIAL_ICON_MAP[s.platform]
-              return (
-                <a key={s.platform} href={s.href} aria-label={s.platform}
-                  className="w-10 h-10 rounded-lg border border-gray-200 flex items-center justify-center text-gray-500 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200">
-                  {Icon && <Icon className="w-4 h-4" />}
-                </a>
-              )
-            })}
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-12">Contact</h2>
+
+      <div className="max-w-lg divide-y divide-gray-100">
+
+        {/* Address */}
+        <div className="flex items-start gap-5 py-7">
+          <MapPin className="w-5 h-5 text-blue-500 mt-0.5 shrink-0" />
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Address</p>
+            <p className="text-base text-gray-800 leading-relaxed whitespace-pre-line">{profile.address}</p>
           </div>
         </div>
 
-        {/* Right — Form */}
-        <div className="bg-gray-50 rounded-2xl border border-gray-200 p-8 shadow-sm">
-          {sent ? (
-            <div className="flex flex-col items-center justify-center h-full py-12 text-center">
-              <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mb-4">
-                <CheckCircle2 className="w-7 h-7 text-green-600" />
-              </div>
-              <h3 className="font-bold text-gray-900 text-lg">Message Sent!</h3>
-              <p className="text-gray-500 text-sm mt-1">I'll get back to you within 48 hours.</p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="form-name" className="block text-xs font-semibold text-gray-700 mb-1.5">Name</label>
-                  <input id="form-name" type="text" required placeholder="Jane Smith"
-                    value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    className="w-full px-3.5 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white" />
-                </div>
-                <div>
-                  <label htmlFor="form-email" className="block text-xs font-semibold text-gray-700 mb-1.5">Email</label>
-                  <input id="form-email" type="email" required placeholder="jane@university.edu"
-                    value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    className="w-full px-3.5 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white" />
-                </div>
-              </div>
-              <div>
-                <label htmlFor="form-subject" className="block text-xs font-semibold text-gray-700 mb-1.5">Subject</label>
-                <input id="form-subject" type="text" required placeholder="Research collaboration inquiry"
-                  value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })}
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white" />
-              </div>
-              <div>
-                <label htmlFor="form-message" className="block text-xs font-semibold text-gray-700 mb-1.5">Message</label>
-                <textarea id="form-message" required rows={5} placeholder="Tell me about your research interests or questions..."
-                  value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition resize-none bg-white" />
-              </div>
-              <button id="send-message-btn" type="submit"
-                className="w-full flex items-center justify-center gap-2 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md shadow-blue-200 transition-all duration-200 text-sm hover:-translate-y-0.5">
-                <Send className="w-4 h-4" />
-                Send Message
-              </button>
-            </form>
-          )}
+        {/* Email */}
+        <div className="flex items-start gap-5 py-7">
+          <Mail className="w-5 h-5 text-blue-500 mt-0.5 shrink-0" />
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Email Id</p>
+            <a href={`mailto:${profile.email}`} className="text-base font-medium text-blue-600 hover:underline underline-offset-2">
+              {profile.email}
+            </a>
+          </div>
         </div>
+
+        {/* Phone */}
+        <div className="flex items-start gap-5 py-7">
+          <Phone className="w-5 h-5 text-blue-500 mt-0.5 shrink-0" />
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Contact No.</p>
+            <a href={`tel:${profile.phone}`} className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors">
+              {profile.phone}
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
   )

@@ -6,7 +6,7 @@
     "department": "Department of Civil & Environmental Engineering",
     "email": "[jhaarvind@iitp.ac.in]",
     "phone": "+91-6115-233 807",
-    "address": "IIT Patna, Bihar 801106",
+    "address": "Dr. Arvind Kumar Jha\nRoom No. 513, 5th Floor, Academic Block II\nDepartment of Civil & Environmental Engineering\nIIT Patna, Bihta, Patna, Bihar, 801106",
     "googleScholarUrl": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en",
     "bio": "Associate Professor at IIT Patna specializing in Civil & Environmental Engineering. Passionate about research, teaching, and solving real-world infrastructure challenges.",
     "affiliation": "IIT Patna, Department of Civil & Environmental Engineering",
@@ -109,25 +109,32 @@
   ],
   "publications": [
     {
-      "title": "Deep Learning Approaches for Multi-Omics Data Integration in Cancer Genomics",
-      "authors": "Hart, E., Zhang, L., Patel, R., & Kim, J.",
-      "journal": "Nature Methods",
-      "year": "2023",
-      "doi": "https://doi.org/10.1038/s41592-023-01001-1"
+      "title": "Mechanism of improvement in the strength and volume change behavior of lime stabilized soil",
+      "authors": "Jha, A. K., & Sivapullaiah, P. V.",
+      "journal": "Engineering Geology",
+      "year": "2015",
+      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
     },
     {
-      "title": "Scalable Graph Neural Networks for Protein–Protein Interaction Prediction",
-      "authors": "Hart, E., & Müller, T.",
-      "journal": "Cell Systems",
-      "year": "2022",
-      "doi": "https://doi.org/10.1016/j.cels.2022.05.003"
+      "title": "Gypsum induced strength behaviour of fly ash-lime stabilized expansive soil",
+      "authors": "Sivapullaiah, P. V., & Jha, A. K.",
+      "journal": "Geotechnical and Geological Engineering",
+      "year": "2014",
+      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
     },
     {
-      "title": "Interpretable Machine Learning Models Reveal Novel Biomarkers in Alzheimer's Disease",
-      "authors": "Hart, E., Okafor, S., & Nguyen, P.",
-      "journal": "PLOS Computational Biology",
-      "year": "2021",
-      "doi": "https://doi.org/10.1371/journal.pcbi.1009112"
+      "title": "Geotechnical behaviour and micro-analyses of expansive soil amended with marble dust",
+      "authors": "Jain, A. K., & Jha, A. K.",
+      "journal": "Soils and Foundations",
+      "year": "2020",
+      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
+    },
+    {
+      "title": "Volume change behavior of lime treated gypseous soil — influence of mineralogy and microstructure",
+      "authors": "Jha, A. K., & Sivapullaiah, P. V.",
+      "journal": "Applied Clay Science",
+      "year": "2016",
+      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
     }
   ],
   "education": [
