@@ -7,6 +7,7 @@ import {
   HeartHandshake, Pen, BookMarked, ArrowRight,
 } from 'lucide-react'
 import data from './data.json'
+import iitpLogo from './assets/iitp-logo.png'
 
 // ── Icon map ───────────────────────────────────────────────────────────────────
 const ICON_MAP: Record<string, React.ElementType> = {
@@ -51,11 +52,10 @@ function Badge({ children }: { children: React.ReactNode }) {
   )
 }
 
-function SectionHeader({ badge, title, subtitle }: { badge: string; title: string; subtitle?: string }) {
+function SectionHeader({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
     <div className="mb-12">
-      <Badge>{badge}</Badge>
-      <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">{title}</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">{title}</h2>
       {subtitle && <p className="mt-3 text-gray-500 max-w-2xl text-base leading-relaxed">{subtitle}</p>}
     </div>
   )
@@ -69,8 +69,7 @@ function HomeSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Left */}
         <div>
-          <Badge>About Me</Badge>
-          <h1 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-gray-900">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-gray-900">
             {profile.name}
           </h1>
           <p className="mt-2 text-base font-medium text-blue-600">{profile.title} · {profile.institution}</p>
@@ -122,7 +121,6 @@ function ResearchSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        badge="Focus"
         title="Areas of Focus"
         subtitle="My research sits at the intersection of engineering and environmental science — three disciplines that together unlock the complexity of real-world systems."
       />
@@ -170,7 +168,6 @@ function TeachingSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader
-        badge="Teaching"
         title="Courses I Teach"
         subtitle="Bridging theory and practice — my courses equip students with computational skills grounded in real-world questions."
       />
@@ -185,10 +182,6 @@ function TeachingSection() {
               <div className="flex items-center gap-1.5 text-gray-500 text-sm">
                 <Users className="w-4 h-4 text-blue-400" />
                 <span>{course.students} Students</span>
-              </div>
-              <div className="flex items-center gap-1.5 text-gray-500 text-sm">
-                <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-                <span>{course.rating} Rating</span>
               </div>
               <div className="flex items-center gap-1.5 text-gray-500 text-sm">
                 <BarChart2 className="w-4 h-4 text-blue-400" />
@@ -208,7 +201,6 @@ function PublicationsSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        badge="Publications"
         title="Selected Publications"
         subtitle="A sample of recent peer-reviewed work — full list available on Google Scholar."
       />
@@ -249,7 +241,7 @@ function EducationSection() {
   const { education, educationImage, profile } = data
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
-      <SectionHeader badge="Education" title="Academic Background" />
+      <SectionHeader title="Academic Background" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Timeline */}
         <div className="space-y-6">
@@ -291,7 +283,6 @@ function ActivitiesSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        badge="Service"
         title="Professional Activities"
         subtitle="Contributing to the broader scientific community through editorial, advisory, and outreach roles."
       />
@@ -321,7 +312,6 @@ function AchievementSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader
-        badge="Awards"
         title="Awards & Honors"
         subtitle="Recognition from the global scientific community for contributions to research and education."
       />
@@ -349,7 +339,6 @@ function MiscellaneousSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        badge="Personal"
         title="Beyond Academia"
         subtitle="Science is my calling — but life outside the lab keeps me curious, grounded, and human."
       />
@@ -386,7 +375,7 @@ function ContactSection() {
 
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
-      <SectionHeader badge="Contact" title="Let's Collaborate" />
+      <SectionHeader title="Let's Collaborate" />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
         {/* Left */}
         <div>
@@ -481,16 +470,16 @@ function ContactSection() {
 // ── Section renderer ───────────────────────────────────────────────────────────
 function renderSection(section: string) {
   switch (section) {
-    case 'Home':          return <HomeSection />
-    case 'Research':      return <ResearchSection />
-    case 'Teaching':      return <TeachingSection />
-    case 'Publications':  return <PublicationsSection />
-    case 'Education':     return <EducationSection />
-    case 'Activities':    return <ActivitiesSection />
-    case 'Achievement':   return <AchievementSection />
+    case 'Home': return <HomeSection />
+    case 'Research': return <ResearchSection />
+    case 'Teaching': return <TeachingSection />
+    case 'Publications': return <PublicationsSection />
+    case 'Education': return <EducationSection />
+    case 'Activities': return <ActivitiesSection />
+    case 'Achievement': return <AchievementSection />
     case 'Miscellaneous': return <MiscellaneousSection />
-    case 'Contact':       return <ContactSection />
-    default:              return <HomeSection />
+    case 'Contact': return <ContactSection />
+    default: return <HomeSection />
   }
 }
 
@@ -513,21 +502,10 @@ export default function App() {
         {/* Profile block */}
         <div className="flex flex-col items-center px-4 pt-8 pb-6 border-b border-gray-100">
           {/* Logo icon */}
-          <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center shadow-md mb-4">
-            <Microscope className="w-5 h-5 text-white" />
-          </div>
-          {/* Portrait */}
-          <div className="relative mb-3">
-            <div className="absolute -inset-1 bg-blue-100 rounded-2xl opacity-70 blur-sm" />
-            <img
-              src={profile.portrait}
-              alt={profile.name}
-              className="relative w-24 h-24 rounded-2xl object-cover object-top border-2 border-white shadow-md"
-            />
-          </div>
-          <p className="text-xs font-bold text-gray-900 text-center leading-tight">{profile.name}</p>
-          <p className="text-xs text-blue-600 font-medium text-center mt-0.5">{profile.title}</p>
-          <p className="text-xs text-gray-400 text-center mt-0.5">{profile.institution}</p>
+          <img src={iitpLogo} alt="IIT Patna" className="w-24 h-auto mb-5 object-contain" />
+          <p className="text-sm font-extrabold text-gray-900 text-center leading-snug">{profile.name}</p>
+          <p className="text-sm text-blue-600 font-semibold text-center mt-1">{profile.title}</p>
+          <p className="text-sm text-gray-500 font-medium text-center mt-0.5">{profile.institution}</p>
         </div>
 
         {/* Navigation */}
@@ -596,7 +574,6 @@ export default function App() {
         {/* Footer */}
         <footer className="bg-white border-t border-gray-100 px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-400">
           <p>© 2024 {profile.name}. All rights reserved.</p>
-          <p>Built with React & Tailwind CSS</p>
         </footer>
       </div>
     </div>
