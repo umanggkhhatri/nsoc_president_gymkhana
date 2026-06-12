@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {
   Menu, X, Dna, Brain, FlaskConical, Users, Star, BarChart2,
   Mail, MapPin, Phone, Download,
-  CheckCircle2, Award, BookOpen, Microscope, Globe, Mountain, Music,
+  CheckCircle2, Award, BookOpen, Globe, Mountain, Music,
   Camera, ChevronRight, Send, ExternalLink, GraduationCap,
   HeartHandshake, Pen, BookMarked, ArrowRight,
 } from 'lucide-react'
@@ -43,14 +43,7 @@ const NAV_ITEMS = [
   'Contact',
 ]
 
-// ── Shared Components ──────────────────────────────────────────────────────────
-function Badge({ children }: { children: React.ReactNode }) {
-  return (
-    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-semibold uppercase tracking-wider border border-blue-100">
-      {children}
-    </span>
-  )
-}
+// ── Shared Components ─────────────────────────────────────────────────────────
 
 function SectionHeader({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
@@ -117,47 +110,21 @@ function HomeSection() {
 
 // ── Research ───────────────────────────────────────────────────────────────────
 function ResearchSection() {
-  const { focusAreas, labBanner } = data
+  const { focusAreas } = data
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        title="Areas of Focus"
-        subtitle="My research sits at the intersection of engineering and environmental science — three disciplines that together unlock the complexity of real-world systems."
+        title="Research Areas"
+        subtitle="My research spans geotechnical and geoenvironmental engineering, with a focus on ground improvement, soil stabilization, and sustainable infrastructure."
       />
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {focusAreas.map((area) => {
-          const Icon = ICON_MAP[area.icon]
-          return (
-            <div
-              key={area.title}
-              className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group"
-            >
-              <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                {Icon && <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />}
-              </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">{area.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{area.desc}</p>
-              <div className="mt-4 flex items-center gap-1 text-blue-600 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Learn more <ChevronRight className="w-4 h-4" />
-              </div>
-            </div>
-          )
-        })}
-      </div>
-
-      {/* Bottom Banner */}
-      <div className="mt-10 relative rounded-2xl overflow-hidden h-52 shadow-lg">
-        <img src={labBanner.image} alt={labBanner.alt} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-900/40 flex items-center px-10">
-          <div>
-            <p className="text-white/70 text-sm font-medium mb-1 uppercase tracking-wider">{labBanner.label}</p>
-            <h3 className="text-white text-2xl font-bold">{labBanner.heading}</h3>
-            <a href={labBanner.ctaHref} className="mt-3 inline-flex items-center gap-2 text-blue-300 text-sm font-semibold hover:text-white transition-colors">
-              {labBanner.ctaLabel} <ArrowRight className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
-      </div>
+      <ul className="space-y-2">
+        {focusAreas.map((area) => (
+          <li key={area.title} className="flex items-center gap-2 text-gray-700 text-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0" />
+            {area.title}
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }

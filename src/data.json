@@ -50,29 +50,33 @@
   ],
   "focusAreas": [
     {
-      "icon": "Dna",
-      "title": "Genomics & ML",
-      "desc": "Applying machine learning models to large-scale genomic datasets to uncover hidden biological patterns and disease mechanisms."
+      "title": "Geotechnical Engineering"
     },
     {
-      "icon": "Brain",
-      "title": "Neural Circuits",
-      "desc": "Investigating how neural circuit dynamics give rise to complex behaviors using computational and experimental approaches."
+      "title": "Geoenvironmental Engineering"
     },
     {
-      "icon": "FlaskConical",
-      "title": "Computational Biology",
-      "desc": "Building algorithmic frameworks to simulate, analyze, and predict biological processes at the molecular and cellular scale."
+      "title": "Ground Improvement Techniques"
+    },
+    {
+      "title": "Environmental Geotechnics"
+    },
+    {
+      "title": "Transportation Geotechnics"
+    },
+    {
+      "title": "Soil Stabilization by Admixtures"
+    },
+    {
+      "title": "Environmental Geotechnics"
+    },
+    {
+      "title": "Bio-Geotechnics"
+    },
+    {
+      "title": "Rock Mechanics and Underground Excavation"
     }
   ],
-  "labBanner": {
-    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1400&q=80",
-    "alt": "BioTech Laboratory",
-    "label": "Facilities",
-    "heading": "Explore the BioTech Lab",
-    "ctaLabel": "Request a visit",
-    "ctaHref": "#contact"
-  },
   "courses": [
     {
       "title": "Introduction to Bioinformatics",
@@ -128,23 +132,33 @@
   ],
   "education": [
     {
-      "degree": "Ph.D. in Computational Biology",
-      "uni": "MIT — Massachusetts Institute of Technology",
-      "years": "2014 – 2019"
+      "degree": "Post-Doctorate",
+      "uni": "Indian Institute of Science (IISc), Bangalore",
+      "years": "Feb 2016 – Jan 2017"
     },
     {
-      "degree": "M.S. in Bioinformatics",
-      "uni": "Stanford University",
-      "years": "2012 – 2014"
+      "degree": "Doctorate",
+      "uni": "Indian Institute of Science (IISc), Bangalore",
+      "years": "Aug 2012 – Jan 2016"
     },
     {
-      "degree": "B.S. in Computer Science (Biology minor)",
-      "uni": "UC Berkeley",
-      "years": "2008 – 2012"
+      "degree": "Masters",
+      "uni": "Institute of Engineering, Pulchowk Campus, Tribhuvan University, Nepal",
+      "years": "Nov 2009 – Jan 2011"
+    },
+    {
+      "degree": "Bachelors",
+      "uni": "Tribhuvan University, Nepal",
+      "years": "Nov 2003 – Dec 2007"
+    },
+    {
+      "degree": "Diploma",
+      "uni": "Tribhuvan University, Nepal",
+      "years": "Nov 1999 – Dec 2002"
     }
   ],
   "educationImage": {
-    "src": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=700&q=80",
+    "src": "./assets/image.png",
     "alt": "University campus building"
   },
   "professionalActivities": [
