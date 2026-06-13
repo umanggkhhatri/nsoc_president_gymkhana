@@ -110,31 +110,31 @@
   "publications": [
     {
       "title": "Mechanism of improvement in the strength and volume change behavior of lime stabilized soil",
-      "authors": "Jha, A. K., & Sivapullaiah, P. V.",
-      "journal": "Engineering Geology",
+      "authors": "AK Jha, PV Sivapullaiah",
+      "journal": "Engineering Geology 198, 53-64",
       "year": "2015",
-      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
+      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S001379521530051X"
     },
     {
       "title": "Gypsum induced strength behaviour of fly ash-lime stabilized expansive soil",
-      "authors": "Sivapullaiah, P. V., & Jha, A. K.",
-      "journal": "Geotechnical and Geological Engineering",
+      "authors": "PVS A. K. Jha",
+      "journal": "Geotechnical and Geological Engineering 32 (5), 1261-1273",
       "year": "2014",
-      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
+      "doi": "https://link.springer.com/article/10.1007/s10706-014-9799-7"
     },
     {
       "title": "Geotechnical behaviour and micro-analyses of expansive soil amended with marble dust",
-      "authors": "Jain, A. K., & Jha, A. K.",
-      "journal": "Soils and Foundations",
+      "authors": "AK Jain, AK Jha",
+      "journal": "Soils and Foundations 60 (4), 737-751",
       "year": "2020",
-      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
+      "doi": "https://www.sciencedirect.com/science/article/pii/S0038080620336659"
     },
     {
       "title": "Volume change behavior of lime treated gypseous soil — influence of mineralogy and microstructure",
-      "authors": "Jha, A. K., & Sivapullaiah, P. V.",
-      "journal": "Applied Clay Science",
+      "authors": "AK Jha, PV Sivapullaiah",
+      "journal": "Applied Clay Science 119, 202-212",
       "year": "2016",
-      "doi": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en"
+      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0169131715301253"
     }
   ],
   "education": [
@@ -190,6 +190,21 @@
       "desc": "Contributing articles to Quanta Magazine and The Scientist to popularize research."
     }
   ],
+  "invitedLectures": [
+    "Delivered an Invited lecture on International conference on GeoMandu, An NGS International Conference Series during 16-17 March, 2023, Kathmandu, Nepal.",
+    "Delivered an expert lecture on e-Short Term Course (e-STC), on \"Advances in Transportation and Environmental Geotechnics (ATEG-2022)\" held during 4-8th April, 2022 at NIT Hamirpur.",
+    "Delivered an expert lecture on \"Seepage analysis through soil mass and its application\" organized by Manipal University Jaipur, 12th November, 2021.",
+    "Delivered an expert lecture on \"Flow through the soil mass and its application\" organized by Manipal University Jaipur, 08th November, 2021.",
+    "Delivered an expert lecture on the Short-term course (STC) entitled \"Advances in Geotechnical and Geo-Environmental Engineering (AGGE)\" organized by NIT Patna and IGS Bihar and Jharkhand Chapter, 25th-29th October, 2021.",
+    "Delivered the guest expert lecture on the occasion of engineer's day on the \"Recent Advances in Geotechnical Engineering and its Importance in Civil Engineering\" organized by Government Polytechnic Daman, 15 September, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Sustainability Engineering\", sponsored by AICTE, ATAL learning academy and organized by RTU KOTA during 05th – 09th, July, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Environmental Geotechnology\", sponsored by AICTE, ATAL learning academy and organized by NIT GOA during 21st – 25th, June, 2021.",
+    "Delivered three expert lectures on 5-day e-FDP on \"REACH 2021\" organized by Department of Civil Engineering, Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex, Dum Dum, Kolkata during 05th to 09th April, 2021.",
+    "Delivered an expert lecture on one-week e-Short Term Course (e-STC), on \"Recent Advances in Geotechnical Engineering (RAGE-2021)\" held during 1st March – 5th March 2021 at NIT Hamirpur.",
+    "Delivered an Expert Lecture on 5-day webinar \"Recent Advances and Challenges in Geotechnical Engineering\" an Industry Academia Interaction Initiative, organized by Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology, Chennai, India, 08 – 12 December, 2020.",
+    "Delivered an Expert Lecture under TEQIP program at Loknayak Jai Prakash Institute of Technology (LNJPIT), 25 January, 2020.",
+    "Delivered Keynote Lecture on topic \"Chemical Stabilization of Soils — Scopes and Challenges\" at National Level Short Term Course on \"Geotechnical Investigation & Ground Improvement- Aspects & Prospects\", organized by JKL University, Jaipur, 19-21 Feb., 2018."
+  ],
   "awards": [
     {
       "icon": "Award",
@@ -212,21 +227,14 @@
       "year": "2023"
     }
   ],
-  "personal": [
-    {
-      "icon": "Mountain",
-      "title": "Avid Hiker",
-      "desc": "Completed the Appalachian Trail in 2020 — 2,190 miles of wilderness that fuels creative problem-solving in the lab."
-    },
-    {
-      "icon": "Music",
-      "title": "Amateur Cellist",
-      "desc": "Playing cello in a local chamber ensemble keeps my mind sharp and reminds me that structure and creativity go hand in hand."
-    },
-    {
-      "icon": "Camera",
-      "title": "Nature Photographer",
-      "desc": "Macro photography of microorganisms bridges my scientific curiosity with a passion for visual storytelling."
-    }
+  "societyMemberships": [
+    "American Society of Civil Engineers (ASCE)",
+    "ASCE Geo-Institute Soil Improvement Committee Member",
+    "Executive Committee Member, IGS Bihar & Jharkhand Chapter",
+    "Indian Geotechnical Society (IGS) (Life Member)",
+    "Indian Society of Earthquake Technology (ISET) (Life Member)",
+    "Nepal Engineering Council (NEC) (Life Member)",
+    "Nepal Engineers Association (NEA) (Life Member)",
+    "Nepal Geotechnical Society (NGS) (Life Member)"
   ]
 }

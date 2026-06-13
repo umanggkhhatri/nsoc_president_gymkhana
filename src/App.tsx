@@ -103,14 +103,16 @@ function ResearchSection() {
         title="Research Areas"
         subtitle="My research spans geotechnical and geoenvironmental engineering, with a focus on ground improvement, soil stabilization, and sustainable infrastructure."
       />
-      <ul className="space-y-2">
-        {focusAreas.map((area) => (
-          <li key={area.title} className="flex items-center gap-2 text-gray-700 text-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0" />
-            {area.title}
-          </li>
-        ))}
-      </ul>
+      <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
+        <ul className="space-y-4">
+          {focusAreas.map((area) => (
+            <li key={area.title} className="flex items-start gap-3 group">
+              <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 shrink-0 group-hover:bg-blue-700 transition-colors" />
+              <span className="text-gray-700 text-sm leading-relaxed">{area.title}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   )
 }
@@ -153,21 +155,27 @@ function PublicationsSection() {
   const { publications, profile } = data
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
-      <SectionHeader
-        title="Selected Publications"
-        subtitle="A sample of recent peer-reviewed work — full list available on Google Scholar."
-      />
+      <div className="mb-12">
+        <div className="flex items-end gap-3 flex-wrap">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">Selected Publications</h2>
+          <a href={profile.googleScholarUrl} target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-semibold text-white bg-blue-600 border border-blue-600 rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-200">
+            Google Scholar <ExternalLink className="w-4 h-4" />
+          </a>
+        </div>
+        <p className="mt-3 text-gray-500 max-w-2xl text-base leading-relaxed">A sample of recent peer-reviewed work — full list available on Google Scholar.</p>
+      </div>
       <div className="flex flex-col gap-4">
         {publications.map((pub) => (
           <div key={pub.doi} className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row sm:items-center gap-4 group">
             <div className="flex-1">
-              <h3 className="text-sm font-bold text-gray-900 leading-snug group-hover:text-blue-700 transition-colors">{pub.title}</h3>
+              <h3 className="text-base font-bold text-gray-900 leading-snug group-hover:text-blue-700 transition-colors">{pub.title}</h3>
               <p className="mt-1.5 text-sm text-gray-500">{pub.authors}</p>
               <div className="mt-2 flex flex-wrap items-center gap-3">
                 <span className="text-xs font-medium text-gray-400">{pub.journal} · {pub.year}</span>
                 <a href={pub.doi} target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs text-blue-600 font-semibold hover:underline">
-                  DOI <ExternalLink className="w-3 h-3" />
+                  Scholar Articles <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
             </div>
@@ -175,12 +183,7 @@ function PublicationsSection() {
           </div>
         ))}
       </div>
-      <div className="mt-8 text-center">
-        <a href={profile.googleScholarUrl} target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 border border-blue-600 text-blue-600 text-sm font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200">
-          View all on Google Scholar <ExternalLink className="w-4 h-4" />
-        </a>
-      </div>
+
     </section>
   )
 }
@@ -228,28 +231,35 @@ function EducationSection() {
 
 // ── Activities ─────────────────────────────────────────────────────────────────
 function ActivitiesSection() {
-  const { professionalActivities } = data
+  const { invitedLectures } = data
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
-      <SectionHeader
-        title="Professional Activities"
-        subtitle="Contributing to the broader scientific community through editorial, advisory, and outreach roles."
-      />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        {professionalActivities.map((act) => {
-          const Icon = ICON_MAP[act.icon]
-          return (
-            <div key={act.title} className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm flex gap-4 items-start hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 group">
-              <div className="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
-                {Icon && <Icon className="w-5 h-5 text-blue-600 group-hover:text-white transition-colors duration-300" />}
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm">{act.title}</h3>
-                <p className="text-gray-500 text-sm mt-1 leading-relaxed">{act.desc}</p>
-              </div>
-            </div>
-          )
-        })}
+      {/* Institute/Departmental Activities */}
+      <div className="mb-12">
+        <h3 className="text-3xl font-bold text-gray-900 mb-6">Institute / Departmental Activities</h3>
+        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
+          <div className="flex items-start gap-3">
+            <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 shrink-0" />
+            <p className="text-base font-semibold text-gray-800 leading-relaxed">President Gymkhana, IIT Patna</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Invited Lectures / Talks */}
+      <div className="mb-12">
+        <h3 className="text-3xl font-bold text-gray-900 mb-6">Invited Lectures / Talks</h3>
+        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
+          <ol className="space-y-4 list-none">
+            {invitedLectures.map((lecture, i) => (
+              <li key={i} className="flex items-start gap-4 group">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-blue-50 border border-blue-200 flex items-center justify-center text-xs font-bold text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
+                  {i + 1}
+                </span>
+                <p className="text-gray-700 text-sm leading-relaxed pt-1">{lecture}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
       </div>
     </section>
   )
@@ -284,26 +294,22 @@ function AchievementSection() {
 
 // ── Miscellaneous ──────────────────────────────────────────────────────────────
 function MiscellaneousSection() {
-  const { personal } = data
+  const { societyMemberships } = data
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader
-        title="Beyond Academia"
-        subtitle="Science is my calling — but life outside the lab keeps me curious, grounded, and human."
+        title="Society Memberships"
+        subtitle="Professional affiliations and active memberships in national and international engineering societies."
       />
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {personal.map((item) => {
-          const Icon = ICON_MAP[item.icon]
-          return (
-            <div key={item.title} className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                {Icon && <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />}
-              </div>
-              <h3 className="font-bold text-gray-900 text-base mb-2">{item.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
-            </div>
-          )
-        })}
+      <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
+        <ul className="space-y-4">
+          {societyMemberships.map((membership, i) => (
+            <li key={i} className="flex items-start gap-3 group">
+              <span className="mt-1.5 w-2 h-2 rounded-full bg-blue-500 shrink-0 group-hover:bg-blue-700 transition-colors" />
+              <span className="text-gray-700 text-sm leading-relaxed">{membership}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   )
@@ -384,7 +390,7 @@ export default function App() {
         fixed inset-y-0 left-0 z-40 flex flex-col w-52 bg-white border-r border-gray-100 shadow-lg
         transform transition-transform duration-300 ease-in-out
         ${mobileOpen ? 'translate-x-0' : '-translate-x-full'}
-        lg:relative lg:translate-x-0 lg:flex lg:shrink-0
+        lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 lg:flex lg:shrink-0
       `}>
         {/* Profile block */}
         <div className="flex flex-col items-center px-4 pt-8 pb-6 border-b border-gray-100">
