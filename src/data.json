@@ -137,6 +137,60 @@
       "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0169131715301253"
     }
   ],
+  "conferencePapers": [
+    {
+      "citation": "Nakwal, Chetram, and Jha, A. K. (2022). Dynamic behavior of slope stability of bioreactor landfill. Proceedings of Indian Geotechnical Conference 2022, 15th – 17th December, 2022, Kochi.",
+      "year": "2022"
+    },
+    {
+      "citation": "Gurjar, Dharmendra Kumar and Jha, A. K. Influence of Slope Geometry and Decomposition Time-Age on Stability of Bioreactor Landfills – Numerical Analyses. Proceedings of Indian Geotechnical Conference 2021, December 16-18, 2021, NIT Tiruchirappalli. (Accepted).",
+      "year": "2021"
+    },
+    {
+      "citation": "Jain, A. K., Jha, A. K., Akhtar, M. P. (2021). Effect of electrolyte concentrations on swelling behaviour of sand- and marble dust-bentonite mixes. IOP Conf. Series: Earth and Environmental Science 796 (2021) 012068, doi:10.1088/1755-1315/796/1/012068 (open access).",
+      "year": "2021",
+      "doi": "https://doi.org/10.1088/1755-1315/796/1/012068"
+    },
+    {
+      "citation": "Shivanshi, Jha, A. K., Akhtar, M.P. (2021). Physical and geotechnical perspectives of gypsum on lime stabilized expansive soil: a critical appraisal. IOP Conf. Series: Earth and Environmental Science 796 (2021) 012064, doi:10.1088/1755-1315/796/1/012064 (open access).",
+      "year": "2021",
+      "doi": "https://doi.org/10.1088/1755-1315/796/1/012064"
+    },
+    {
+      "citation": "Shivanshi, S., Jha, A. K., & Jain, Ankush (2019). Swell behaviour of Lime treated Soil under Sulphate Contamination. Proceedings of the XVII ECSMGE-2019, Geotechnical Engineering foundation of the future, Reykjavik Iceland, 1 - 6 September 2019, doi: 10.32075/17ECSMGE-2019-0570.",
+      "year": "2019",
+      "doi": "https://doi.org/10.32075/17ECSMGE-2019-0570"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2017). Quantification of sulphate induced heave in lime stabilized soil. Indian Geotechnical Conference- 2017 GeoNEst. 14-16 December 2017, IIT Guwahati, India.",
+      "year": "2017"
+    },
+    {
+      "citation": "Jha, A. K., Pandey, Mandeep R., & Sivapullaiah, P. V. (2016). Geotechnical properties of lime treated gypseous soil with fly ash – A micro-level study. ASCE, 767-777, doi: 10.1061/9780784480144.076.",
+      "year": "2016",
+      "doi": "https://doi.org/10.1061/9780784480144.076"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2016). Potential of fly ash to enhance the behaviour of lime treated gypseous soil. International Conference on Soil and Environment (ICSE), Bangalore, India.",
+      "year": "2016"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2015). Pozzolanic additives induced strength behaviour of expansive soil: A comparative study. Proceedings of the Institution of Civil Engineers (ICE), 163(3), 149-163.",
+      "year": "2015"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2014). Mineralogical and microstructural induced compressibility behaviour of lime stabilized expansive soil. International Symposium Geohazards, 502-513, November 20-21, Kathmandu, Nepal.",
+      "year": "2014"
+    },
+    {
+      "citation": "Jha, A. K., and Sivapullaiah, P. V. (2014). Sulfate induced heave in calcium based stabilized soil – a mechanistic view. Seventh student symposium, 25-26 September, Department of Civil Engineering, Indian Institute of Science (IISc), India.",
+      "year": "2014"
+    },
+    {
+      "citation": "Jha, A. K., and Sivapullaiah, P. V. (2013). Strength and microstructural development in lime stabilized expansive soil. Sixth student symposium, 26-27 September, Department of Civil Engineering, Indian Institute of Science (IISc), India.",
+      "year": "2013"
+    }
+  ],
   "education": [
     {
       "degree": "Post-Doctorate",
@@ -207,24 +261,24 @@
   ],
   "awards": [
     {
-      "icon": "Award",
-      "title": "NSF CAREER Award",
-      "year": "2022"
-    },
-    {
-      "icon": "Star",
-      "title": "Nature Rising Star",
-      "year": "2021"
+      "icon": "Trophy",
+      "title": "ISSMGE Foundation Award",
+      "year": "2015"
     },
     {
       "icon": "GraduationCap",
-      "title": "MIT Excellence Award",
-      "year": "2019"
+      "title": "International Scholarship for PhD by Indian Institute of Science (IISc), Bangalore, India",
+      "year": "2012"
     },
     {
       "icon": "BookMarked",
-      "title": "NIH Innovator Award",
-      "year": "2023"
+      "title": "MSc Dissertation Grant by National Academy of Science and Technology (NAST), Nepal",
+      "year": "2011"
+    },
+    {
+      "icon": "Star",
+      "title": "MSc Merit Scholarship by Institute of Engineering, Pulchowk Campus, Tribhuvan University, Nepal",
+      "year": "2009"
     }
   ],
   "societyMemberships": [
