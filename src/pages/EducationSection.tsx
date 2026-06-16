@@ -7,7 +7,7 @@ export function EducationSection() {
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader title="Academic Background" />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* Timeline */}
         <div className="space-y-6">
           {education.map((edu, i) => (
