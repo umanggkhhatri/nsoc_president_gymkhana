@@ -1,4 +1,3 @@
-import type React from 'react'
 import { SectionHeader } from '../components/SectionHeader'
 import data from '../data.json'
 
