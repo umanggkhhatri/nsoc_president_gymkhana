@@ -77,34 +77,33 @@
       "title": "Rock Mechanics and Underground Excavation"
     }
   ],
-  "courses": [
+  "courseGroups": [
     {
-      "title": "Introduction to Bioinformatics",
-      "code": "CS101",
-      "students": "120+",
-      "rating": "4.9",
-      "level": "Undergrad"
+      "institution": "At IIT Patna",
+      "courses": [
+        { "title": "Engineering Graphics", "code": "CE1101", "sessions": "July 2026" },
+        { "title": "Fundamentals of Soil Behaviour", "code": "CE5206/CE6239", "sessions": "" },
+        { "title": "Engineering Graphics", "code": "CE1201", "sessions": "Jan. 2026" },
+        { "title": "Rock Engineering", "code": "CE5106", "sessions": "July 2025, Jan. 2026" },
+        { "title": "Geotechnical Exploration", "code": "CE5104", "sessions": "July 2025" },
+        { "title": "Engineering Graphics Tutorial", "code": "CE1101", "sessions": "July 2025" },
+        { "title": "Ground Improvement Technique and Reinforced Earth", "code": "CE532/CE6210", "sessions": "Jan. 2024; Jan. 2025" },
+        { "title": "Rock Engineering", "code": "CE570", "sessions": "Jan. 2022, 2023; July 2024" },
+        { "title": "Soil Mechanics Laboratory", "code": "CE292/CE2202", "sessions": "Jan. 2023, 2024, 2025" },
+        { "title": "Fundamentals of Soil Behaviour", "code": "CE571/CE5206/CE6239", "sessions": "July 2020, 2021, 2023, 2024, 2025" },
+        { "title": "Civil Engineering Materials", "code": "CE216", "sessions": "Jan. 2020, 2021, 2022" },
+        { "title": "Infrastructure Drawing and Estimation", "code": "CE218", "sessions": "Jan. 2020" },
+        { "title": "Engineering Drawing (Tutorial)", "code": "CE111", "sessions": "Jan. 2022, July 2022" },
+        { "title": "Foundation Engineering", "code": "CE317", "sessions": "July 2022, 2023, 2024" }
+      ]
     },
     {
-      "title": "Biostatistics & Data Science",
-      "code": "CS203",
-      "students": "80+",
-      "rating": "4.8",
-      "level": "Graduate"
-    },
-    {
-      "title": "Topics in Functional Genomics",
-      "code": "BIO4",
-      "students": "45+",
-      "rating": "4.9",
-      "level": "Graduate"
-    },
-    {
-      "title": "Statistical Methods in Biology",
-      "code": "STAT5",
-      "students": "60+",
-      "rating": "4.7",
-      "level": "Undergrad"
+      "institution": "At Manipal University Jaipur (MUJ)",
+      "courses": [
+        { "title": "Geotechnical Engineering-I", "code": "CV1501A", "sessions": "Aug. 2017, 2018, 2019" },
+        { "title": "Geotechnical Engineering-II", "code": "CV1601A", "sessions": "Jan. 2017, 2018, 2019" },
+        { "title": "Geotechnical Engineering Laboratory", "code": "CV1530A", "sessions": "Aug. 2017, 2018, 2019" }
+      ]
     }
   ],
   "publications": [
@@ -195,7 +194,12 @@
     {
       "degree": "Associate Professor",
       "uni": "Department of Civil and Environmental Engineering, Indian Institute of Technology (IIT) Patna, Bihta-801103, Bihar, India",
-      "years": "Nov 2019 – till date"
+      "years": "June 2024 – till date"
+    },
+    {
+      "degree": "Assistant Professor",
+      "uni": "Department of Civil and Environmental Engineering, Indian Institute of Technology (IIT) Patna, Bihta-801103, Bihar, India",
+      "years": "November 2019 – June 2024"
     },
     {
       "degree": "Associate Professor",
@@ -270,6 +274,11 @@
     "Delivered Keynote Lecture on topic \"Chemical Stabilization of Soils — Scopes and Challenges\" at National Level Short Term Course on \"Geotechnical Investigation & Ground Improvement- Aspects & Prospects\", organized by JKL University, Jaipur, 19-21 Feb., 2018."
   ],
   "awards": [
+    {
+      "icon": "Trophy",
+      "title": "IGS-Warangal Chapter Biennial Prize for the Best Paper on \"Solutions to the Problems of Expansive Soils\" for the Years 2022-2023 by Indian Geotechnical Society (IGS)",
+      "year": "2022-2023"
+    },
     {
       "icon": "Trophy",
       "title": "ISSMGE Foundation Award",

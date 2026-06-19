@@ -36,7 +36,7 @@ export function PublicationsSection() {
 
       {/* Conference / Symposium Papers */}
       <div className="mb-8">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight">Conference / Symposium Papers</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">Conference / Symposium Papers</h2>
         <p className="mt-2 text-gray-500 text-base leading-relaxed">Special, International, and National Conference and Symposium contributions.</p>
       </div>
       <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">

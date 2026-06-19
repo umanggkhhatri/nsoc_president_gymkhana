@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Menu, X } from 'lucide-react'
 import data from './data.json'
 import iitpLogo from './assets/iitp-logo.png'
@@ -19,7 +19,7 @@ const NAV_ITEMS = [
   'Research',
   'Teaching',
   'Publications',
-  'Education',
+  'Academic Background',
   'Activities',
   'Achievement',
   'Miscellaneous',
@@ -33,7 +33,7 @@ function renderSection(section: string) {
     case 'Research': return <ResearchSection />
     case 'Teaching': return <TeachingSection />
     case 'Publications': return <PublicationsSection />
-    case 'Education': return <EducationSection />
+    case 'Academic Background': return <EducationSection />
     case 'Activities': return <ActivitiesSection />
     case 'Achievement': return <AchievementSection />
     case 'Miscellaneous': return <MiscellaneousSection />
@@ -46,6 +46,11 @@ function renderSection(section: string) {
 export default function App() {
   const [activeSection, setActiveSection] = useState('Home')
   const [mobileOpen, setMobileOpen] = useState(false)
+  const mainRef = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    mainRef.current?.scrollTo({ top: 0, behavior: 'instant' })
+  }, [activeSection])
   const { profile } = data
 
   return (
@@ -119,7 +124,7 @@ export default function App() {
         </header>
 
         {/* Content */}
-        <main className="flex-1 overflow-y-auto">
+        <main ref={mainRef} className="flex-1 overflow-y-auto">
           <div key={activeSection} className="animate-fadeIn">
             {renderSection(activeSection)}
           </div>
