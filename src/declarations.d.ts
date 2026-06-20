@@ -1,3 +1,6 @@
+// Tell TypeScript that CSS side-effect imports are valid
+declare module '*.css'
+
 // Tell TypeScript that image/font/svg imports are valid string modules
 declare module '*.png' {
   const src: string
