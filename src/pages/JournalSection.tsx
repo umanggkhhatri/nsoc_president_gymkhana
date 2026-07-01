@@ -1,8 +1,10 @@
 import { ExternalLink, FileText, Star, Award } from 'lucide-react'
-import data from '../data.json'
+import publicationsData from '../data/publications.json'
+import profileData from '../data/profile.json'
 
 export function JournalSection() {
-  const { publications, profile } = data
+  const { publications } = publicationsData
+  const { profile } = profileData
 
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">

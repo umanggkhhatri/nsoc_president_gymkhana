@@ -1,9 +1,9 @@
 import { CheckCircle2 } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import profileData from '../data/profile.json'
 
 export function EducationSection() {
-  const { education, educationImage, profile } = data
+  const { education, educationImage, profile } = profileData
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader title="Academic Background" />

@@ -1,6 +1,6 @@
 import { Trophy, GraduationCap, Users } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import activitiesData from '../data/activities.json'
 
 const iconMap: Record<string, React.ElementType> = {
   Trophy,
@@ -8,7 +8,7 @@ const iconMap: Record<string, React.ElementType> = {
 }
 
 export function AchievementSection() {
-  const { awards, societyMemberships } = data
+  const { awards, societyMemberships } = activitiesData
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader

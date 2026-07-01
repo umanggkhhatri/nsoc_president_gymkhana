@@ -1,8 +1,8 @@
 import { Briefcase } from 'lucide-react'
-import data from '../data.json'
+import activitiesData from '../data/activities.json'
 
 export function ActivitiesSection() {
-  const { invitedLectures, instituteDeptResponsibilities } = data
+  const { invitedLectures, instituteDeptResponsibilities } = activitiesData
 
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">

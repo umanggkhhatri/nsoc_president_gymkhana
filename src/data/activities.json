@@ -1,0 +1,377 @@
+{
+  "professionalActivities": [
+    {
+      "icon": "BookOpen",
+      "title": "Editorial Board Member",
+      "desc": "Associate Editor and Editorial Board Member for several international journals including ASCE, Springer, and Springer Nature."
+    },
+    {
+      "icon": "Globe",
+      "title": "Conference Organiser",
+      "desc": "Invited speaker and keynote lecturer at international conferences across Asia, Europe, and North America."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Society Member",
+      "desc": "Life member and committee member of IGS, ISRM, ISET, ASCE Geo-Institute, and Indian Road Congress."
+    },
+    {
+      "icon": "Pen",
+      "title": "Research Supervisor",
+      "desc": "Supervising PhD, M.Tech and B.Tech students in geotechnical and geoenvironmental engineering research."
+    }
+  ],
+  "editorialBoards": [
+    {
+      "role": "Associate Editor",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste",
+      "publisher": "ASCE"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Discover Civil Engineering",
+      "publisher": "Springer"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Scientific Reports",
+      "publisher": "Springer Nature"
+    },
+    {
+      "role": "Review Editor",
+      "journal": "Geotechnical Engineering (specialty section of Frontiers in Built Environment)",
+      "publisher": "Frontiers"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Structural Engineering and Analysis",
+      "publisher": "",
+      "eissn": "2456-5326"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Geological and Geotechnical Engineering",
+      "publisher": "",
+      "eissn": "2581-5598"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Concrete Technology",
+      "publisher": "",
+      "eissn": "2456-8317"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Recent Trends in Civil Engineering & Technology (RTCET)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2249-8753",
+      "issn": "2321-6476"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Journal of Geotechnical Engineering (JoGE)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2394-1987"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Trends in Transport Engineering and Applications (TTEA)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2394-7284"
+    }
+  ],
+  "invitedLectures": [
+    "Invited Speaker on the \"15th IAEG Asian Regional Conference (ARC-15),\" held in Kathmandu, Nepal from November 27–29, 2025.",
+    "Delivered a talk/lecture organized by IGS student chapter IIT Roorkee in association of the Department of Civil Engineering, January 2025.",
+    "Invited Speaker on the \"International Conference on Geo-Disaster and Construction Engineering (ICGCE-2024)\" held at the University of Waterloo, June 07–08, 2024.",
+    "Delivered Keynote Lecture on 2nd International Conference on Geotechnical Issues in Energy, Infrastructure and Disaster Management (ICGEID-2024), 18–20th January 2024, DCEE, IIT Patna.",
+    "Young Researcher Special Speakers on 2nd International Conference on Construction Resources for Environmentally Sustainable Technologies (CREST 2023), Fukuoka International Congress Center, Fukuoka, Japan, November 20–22, 2023.",
+    "Delivered Keynote Lecture on International Conference on Interdisciplinary Approaches in Civil Engineering for Sustainable Development (IACESD-2023), 7–8th July 2023, Jyothy Institute of Technology Bangalore under the banner of G20 C20.",
+    "Delivered an Invited lecture on International conference on GeoMandu, An NGS International Conference Series during 16–17th March, 2023, Kathmandu, Nepal.",
+    "Delivered an expert lecture on e-Short Term Course (e-STC), on \"Advances in Transportation and Environmental Geotechnics (ATEG-2022)\" held during 4–8th April, 2022 at NIT Hamirpur.",
+    "Delivered an expert lecture on \"Seepage analysis through soil mass and its application\" organized by Manipal University Jaipur, 12th November, 2021.",
+    "Delivered an expert lecture on \"Flow through the soil mass and its application\" organized by Manipal University Jaipur, 08th November, 2021.",
+    "Delivered an expert lecture on the Short-term course (STC) entitled \"Advances in Geotechnical and Geo-Environmental Engineering (AGGE)\" organized by NIT Patna and IGS Bihar and Jharkhand Chapter, 25th–29th October, 2021.",
+    "Delivered the guest expert lecture on the occasion of engineer's day on the \"Recent Advances in Geotechnical Engineering and its Importance in Civil Engineering\" organized by Government Polytechnic Daman, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu, 15 September, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Sustainability Engineering\", sponsored by AICTE, ATAL learning academy and organized by RTU KOTA during 05th–09th, July, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Environmental Geotechnology\", sponsored by AICTE, ATAL learning academy and organized by NIT GOA during 21st–25th, June, 2021.",
+    "Delivered three expert lectures on 5-day e-FDP on \"REACH 2021\" organized by Department of Civil Engineering, Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex, Dum Dum, Kolkata-700074 during 05th to 09th April, 2021.",
+    "Delivered an expert lecture on one-week e-Short Term Course (e-STC), on \"Recent Advances in Geotechnical Engineering (RAGE-2021)\" held during 1st–5th March 2021 at NIT Hamirpur.",
+    "Delivered an Expert Lecture on 5-day webinar \"Recent Advances and Challenges in Geotechnical Engineering\" an Industry Academia Interaction Initiative, organized by Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology, Chennai, India, 08–12 December, 2020.",
+    "Delivered an Expert Lecture under TEQIP program at Loknayak Jai Prakash Institute of Technology (LNJPIT), 25 January, 2020.",
+    "Delivered Keynote Lecture on topic \"Chemical Stabilization of Soils — Scopes and Challenges\" at National Level Short Term Course on \"Geotechnical Investigation & Ground Improvement — Aspects & Prospects\", organized by JKL University, Jaipur, 19–21 Feb., 2018."
+  ],
+  "awards": [
+    {
+      "icon": "Trophy",
+      "title": "IGS-Warangal Chapter Biennial Prize for the Best Paper on \"Solutions to the Problems of Expansive Soils\" for the Years 2022-2023 by Indian Geotechnical Society (IGS)",
+      "year": "2022-2023"
+    },
+    {
+      "icon": "Trophy",
+      "title": "ISSMGE Foundation Award",
+      "year": "2015"
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "International Scholarship for PhD by Indian Institute of Science (IISc), Bangalore, India",
+      "year": "2012"
+    }
+  ],
+  "societyMemberships": [
+    "Member, International Society for Rock Mechanics and Rock Engineering (ISRM), India",
+    "ASCE Geo-Institute Soil Improvement Committee Member",
+    "Indian Geotechnical Society (IGS) (Life Member)",
+    "Executive Committee Member, IGS Bihar & Jharkhand Chapter",
+    "Indian Society of Earthquake Technology (ISET) (Life Member)",
+    "Affiliate Member, American Society of Civil Engineers (ASCE)",
+    "Indian Road Congress (IRC)"
+  ],
+  "researchGrants": [
+    {
+      "serial": 1,
+      "title": "Development of Centre of Excellence for Advanced Geophysical and Structural Investigation & Waste-to-Wealth Technologies (CoE-AGSWT)",
+      "fundingAgency": "Bhartiya Rail Bijlee Company Limited (BRBCL), Nabinagar Super Thermal Power Project",
+      "type": "Research Project",
+      "year": "28th March 2026"
+    },
+    {
+      "serial": 2,
+      "title": "Development of Natural and Cost-Effective Biogrout using Indigenous Soil Bacteria through Microbially Induced Carbonate Precipitation (MICP) for Ground Improvement and Surface Erosion Control",
+      "fundingAgency": "Advanced Research Grant (ARG), ANRF, GoI, India",
+      "type": "Research Grant",
+      "year": "2026"
+    },
+    {
+      "serial": 3,
+      "title": "Stirred Tank Leaching System for Selective Recovery of Rare Earth Elements from Spent NdFeB Permanent Magnets using Organic Acid-based Deep Eutectic Solvent",
+      "fundingAgency": "Advanced Research Grant (ARG), ANRF, GoI, India",
+      "type": "Research Grant",
+      "investigators": "Dr. S Hait (PI); Dr. Arvind Kumar Jha (Co-PI); Prof. Alok Sinha (Co-PI)",
+      "year": "30.04.2026"
+    },
+    {
+      "serial": 4,
+      "title": "Workshop Grant on \"INFRA-IMPACT: Integrated Training on Bridge and Pavement Design, Inspection, Monitoring, Performance Assessment and Capacity Building\"",
+      "fundingAgency": "Rural Works Department (RWD), Bihar, India",
+      "type": "Workshop Grant",
+      "year": ""
+    },
+    {
+      "serial": 5,
+      "title": "Developing Course Material on Indigenous Knowledge Systems (IKS) in Ancient Construction Practices Aligned with NEP 2020, Civil and Architectural Science",
+      "fundingAgency": "Indian Knowledge Systems Division, Ministry of Education, Govt. of India, IKS Internship 2025-26 (BGS Samvahan Karyakram 5)",
+      "type": "Course Material Development",
+      "year": "2025"
+    },
+    {
+      "serial": 6,
+      "title": "Seminar/Symposia Scheme grant on \"International Conference On Advances in Structural and Geotechnical Engineering 2025 (ASAGE'25)\" scheduled from 06-Feb-2025 to 08-Feb-2025",
+      "fundingAgency": "SERB, ANRF, India",
+      "type": "Seminar/Symposia Grant",
+      "year": "2025"
+    },
+    {
+      "serial": 7,
+      "title": "Development of Laboratory Scale Bio-Grout Technology Landslide Mitigation",
+      "fundingAgency": "Core Research Grant (CRG), SERB, DST",
+      "type": "Research Grant",
+      "year": "2023"
+    },
+    {
+      "serial": 8,
+      "title": "Microbially Induced Calcite Plugging to Develop Fly Ash-Geotextile Liner in Municipal Landfills",
+      "fundingAgency": "Scheme for Transformational and Advanced Research in Sciences (STARS), Ministry of Education, Indian Institute of Science, Bangalore, India",
+      "type": "Research Grant",
+      "year": "2023–2026"
+    },
+    {
+      "serial": 9,
+      "title": "Development of natural and novel biogrout for ground improvement using Microbially Induced Carbonate Precipitation (MICP) technique",
+      "fundingAgency": "GEO Constech Pvt. Ltd. (Industry Sponsored Research Project)",
+      "type": "Industry Sponsored Research",
+      "year": "2023–2025"
+    },
+    {
+      "serial": 10,
+      "title": "Biocalcification of ganga river sand to enhance the shear strength behaviour for erosion control",
+      "fundingAgency": "Vritika, Accelerate Vigyan, SERB, DST, India",
+      "type": "Research Grant",
+      "year": "2022–2023"
+    },
+    {
+      "serial": 11,
+      "title": "Bio-Inspired Ground Improvement Technique for Granular GeoMaterials: Study of Mechanical behaviour under Extreme Environmental Conditions",
+      "fundingAgency": "SEED Grant, IIT Patna",
+      "grantCode": "OH-35; FY 2020–21",
+      "type": "Seed Grant",
+      "year": "2020–2021"
+    },
+    {
+      "serial": 12,
+      "title": "Bulk Utilization of Marble Waste for Highway Construction – A Geotechnical and Physic-Chemical Study",
+      "fundingAgency": "SEED Grant, Manipal University Jaipur (MUJ)",
+      "grantCode": "MUJ/REGR/1435/07",
+      "type": "Seed Grant",
+      "year": "2017–2019"
+    }
+  ],
+  "mouCollaborations": [
+    {
+      "serial": 1,
+      "role": "Coordinator",
+      "description": "MoU signed between Institute of Engineering (IoE), Tribhuvan University Nepal and Indian Institute of Technology Patna, India",
+      "partnerInstitution": "Institute of Engineering (IoE), Tribhuvan University",
+      "partnerCountry": "Nepal",
+      "date": "16th December 2024"
+    },
+    {
+      "serial": 2,
+      "role": "Coordinator",
+      "description": "MoU signed between Kathmandu University Nepal and Indian Institute of Technology Patna, India",
+      "partnerInstitution": "Kathmandu University",
+      "partnerCountry": "Nepal",
+      "date": "14th December 2024"
+    },
+    {
+      "serial": 3,
+      "role": "Coordinator",
+      "description": "MoU between IIT Patna and Centre for Adivasi Research and Development (CARD), Odisha",
+      "partnerInstitution": "Centre for Adivasi Research and Development (CARD)",
+      "partnerCountry": "India",
+      "date": ""
+    }
+  ],
+  "instituteDeptResponsibilities": [
+    {
+      "serial": 1,
+      "title": "President Gymkhana, Student Affairs, IIT Patna",
+      "period": "July 2025 – till date"
+    },
+    {
+      "serial": 2,
+      "title": "PIC Convocation, IIT Patna",
+      "period": "08.08.2025 – till date"
+    },
+    {
+      "serial": 3,
+      "title": "Member, Core Committee for the CEER and CELS buildings",
+      "period": "18.08.2025 – till date"
+    },
+    {
+      "serial": 4,
+      "title": "Deputy Centre Superintendent (DCS), NEET IIT Patna Centre 01",
+      "period": "02.06.2026; 22.06.2026"
+    },
+    {
+      "serial": 5,
+      "title": "Head, Institute Work Department (IWD), IIT Patna",
+      "period": "18 November 2022 – 13 June 2025"
+    },
+    {
+      "serial": 6,
+      "title": "Coordinator Institute Space Committee",
+      "period": "2024.04.01 – 13.06.2025"
+    },
+    {
+      "serial": 7,
+      "title": "Professor In-charge (PIC)-Student Registration, IIT Patna",
+      "period": "October 2021 – January 2024"
+    },
+    {
+      "serial": 8,
+      "title": "Technical Expert, DST Bihar",
+      "period": "15.06.2022"
+    },
+    {
+      "serial": 9,
+      "title": "Member, Space Audit Committee",
+      "period": "01.02.2023"
+    },
+    {
+      "serial": 10,
+      "title": "Member, Senate, IIT Patna",
+      "period": "08.03.2022 – 21.11.2022"
+    },
+    {
+      "serial": 11,
+      "title": "Departmental Coordinator, Shortlisting Committee, Recruitment for Faculty",
+      "period": "2023-2024; 2024-2025"
+    },
+    {
+      "serial": 12,
+      "title": "Member, Purchase Committee of various sections (Student Affairs, Academic Affairs)",
+      "period": ""
+    },
+    {
+      "serial": 13,
+      "title": "Member, Committee for various administrative/purchase/development activities of New Guest House, IIT Patna",
+      "period": "Feb. 2022 – July 2023"
+    },
+    {
+      "serial": 14,
+      "title": "Member, Animal Welfare Cell (AWC)",
+      "period": "03.01.2023 onwards"
+    },
+    {
+      "serial": 15,
+      "title": "Member, Research Scholar Day, IIT Patna, 2022",
+      "period": "2022"
+    },
+    {
+      "serial": 16,
+      "title": "Professor In-charge (PIC)-NSO, IIT Patna",
+      "period": "July 2020 – August 2021"
+    },
+    {
+      "serial": 17,
+      "title": "Member, Department Academic Program Committee, DAPC",
+      "period": "September 2020 – 2025"
+    },
+    {
+      "serial": 18,
+      "title": "Member, Department Purchase Committee, DPC",
+      "period": "FY: 2020-21; 2021-22 to till date"
+    },
+    {
+      "serial": 19,
+      "title": "Faculty In-charge (FIC), ACE-PG Chapter, DCEE",
+      "period": "May 2020 – 2022"
+    },
+    {
+      "serial": 20,
+      "title": "Faculty Advisor, B. Tech.-2020, DCEE Batch",
+      "period": "2020-2024"
+    },
+    {
+      "serial": 21,
+      "title": "Nodal Officer - IIT Patna for Fit India Movement, Higher Education",
+      "period": "31 March 2021 onwards"
+    },
+    {
+      "serial": 22,
+      "title": "Departmental Coordinator, Shortlisting Committee, Special Drive Recruitment for Assistant Professor",
+      "period": "2022"
+    },
+    {
+      "serial": 23,
+      "title": "Member, Purchase Committee, Furniture Items at Classrooms of Central Lecture Hall in IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 24,
+      "title": "Member, Purchase Committee of Audio-Visual System at Classrooms of Central Lecture Hall in IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 25,
+      "title": "Nodal Officer, Data Base of Research Scholar (DBRS), IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 26,
+      "title": "Nodal Officer, STARS-MoE-IISc Projects of IIT Patna",
+      "period": ""
+    }
+  ]
+}

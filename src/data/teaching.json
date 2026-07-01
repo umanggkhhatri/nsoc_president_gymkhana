@@ -1,0 +1,31 @@
+{
+  "courseGroups": [
+    {
+      "institution": "At IIT Patna",
+      "courses": [
+        { "title": "Engineering Graphics", "code": "CE1101", "sessions": "July 2026" },
+        { "title": "Fundamentals of Soil Behaviour", "code": "CE5206/CE6239", "sessions": "" },
+        { "title": "Engineering Graphics", "code": "CE1201", "sessions": "Jan. 2026" },
+        { "title": "Rock Engineering", "code": "CE5106", "sessions": "July 2025, Jan. 2026" },
+        { "title": "Geotechnical Exploration", "code": "CE5104", "sessions": "July 2025" },
+        { "title": "Engineering Graphics Tutorial", "code": "CE1101", "sessions": "July 2025" },
+        { "title": "Ground Improvement Technique and Reinforced Earth", "code": "CE532/CE6210", "sessions": "Jan. 2024; Jan. 2025" },
+        { "title": "Rock Engineering", "code": "CE570", "sessions": "Jan. 2022, 2023; July 2024" },
+        { "title": "Soil Mechanics Laboratory", "code": "CE292/CE2202", "sessions": "Jan. 2023, 2024, 2025" },
+        { "title": "Fundamentals of Soil Behaviour", "code": "CE571/CE5206/CE6239", "sessions": "July 2020, 2021, 2023, 2024, 2025" },
+        { "title": "Civil Engineering Materials", "code": "CE216", "sessions": "Jan. 2020, 2021, 2022" },
+        { "title": "Infrastructure Drawing and Estimation", "code": "CE218", "sessions": "Jan. 2020" },
+        { "title": "Engineering Drawing (Tutorial)", "code": "CE111", "sessions": "Jan. 2022, July 2022" },
+        { "title": "Foundation Engineering", "code": "CE317", "sessions": "July 2022, 2023, 2024" }
+      ]
+    },
+    {
+      "institution": "At Manipal University Jaipur (MUJ)",
+      "courses": [
+        { "title": "Geotechnical Engineering-I", "code": "CV1501A", "sessions": "Aug. 2017, 2018, 2019" },
+        { "title": "Geotechnical Engineering-II", "code": "CV1601A", "sessions": "Jan. 2017, 2018, 2019" },
+        { "title": "Geotechnical Engineering Laboratory", "code": "CV1530A", "sessions": "Aug. 2017, 2018, 2019" }
+      ]
+    }
+  ]
+}

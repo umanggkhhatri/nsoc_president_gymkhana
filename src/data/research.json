@@ -1,0 +1,161 @@
+{
+  "focusAreas": [
+    {
+      "title": "Geotechnical Engineering"
+    },
+    {
+      "title": "Geoenvironmental Engineering"
+    },
+    {
+      "title": "Ground Improvement Techniques"
+    },
+    {
+      "title": "Environmental Geotechnics"
+    },
+    {
+      "title": "Transportation Geotechnics"
+    },
+    {
+      "title": "Soil Stabilization by Admixtures"
+    },
+    {
+      "title": "Environmental Geotechnics"
+    },
+    {
+      "title": "Bio-Geotechnics"
+    },
+    {
+      "title": "Rock Mechanics and Underground Excavation"
+    }
+  ],
+  "phdStudents": {
+    "awarded": [
+      {
+        "serial": 1,
+        "name": "Dr. Ankush Kumar Jain",
+        "period": "July 2017 – November 2022",
+        "thesis": "Potential use of marble dust as a geomaterial with soils and bentonite – a hydrochemo-mechanical study"
+      },
+      {
+        "serial": 2,
+        "name": "Dr. Shivanshi",
+        "period": "July 2017 – February 2023",
+        "thesis": "Quantification and controlling mechanisms of sulphate induced heave in lime stabilized soil"
+      },
+      {
+        "serial": 3,
+        "name": "Dr. Abhishek Tarun",
+        "period": "August 2020 – December 2025",
+        "thesis": "Efficacy of Microorganisms to Improve the Behaviour of Ganga River Sand Using Microbially Induced Calcite Precipitation (MICP) Technique for Geotechnical and Geoenvironmental Applications"
+      },
+      {
+        "serial": 4,
+        "name": "Dr. Gaurav Kumar Mathur",
+        "period": "January 2021 – June 2026",
+        "thesis": "Thermo-Mechanical and Freeze–Thaw Induced Damage in Jointed and Grouted Rock Mass Under Different Loading Systems"
+      }
+    ],
+    "ongoing": [
+      {
+        "serial": 1,
+        "name": "Mr. Ajeet Kumar",
+        "joiningYear": "July 2020",
+        "area": "Application of Nanomaterials for Soil/Ground Improvement"
+      },
+      {
+        "serial": 2,
+        "name": "Mr. Shailendra Kumar Singh",
+        "joiningYear": "January 2020",
+        "area": "Effect of Metal Sulphates on Lime Treated Expansive Soil"
+      },
+      {
+        "serial": 3,
+        "name": "Mr. Shivam Pandey",
+        "joiningYear": "January 2022",
+        "area": "Strengthening of Coal Mine Overburden Waste (CMOW)"
+      },
+      {
+        "serial": 4,
+        "name": "Mr. Anisoor Rahman",
+        "joiningYear": "January 2023",
+        "area": "Remediation of contaminant ground"
+      },
+      {
+        "serial": 5,
+        "name": "Md Arshad Ali",
+        "joiningYear": "July 2024",
+        "area": "MICP application in landfill liner barrier system"
+      },
+      {
+        "serial": 6,
+        "name": "Mr. Sumitindra Sarkar",
+        "joiningYear": "January 2026",
+        "area": "Dynamic Analysis of RE Wall"
+      },
+      {
+        "serial": 7,
+        "name": "Mr. Saurav Prakash Arya",
+        "joiningYear": "January 2026",
+        "area": "Geophysical Investigation"
+      },
+      {
+        "serial": 8,
+        "name": "Mr. Rewant Rawat",
+        "joiningYear": "July 2026",
+        "area": "Geophysical Investigation"
+      }
+    ]
+  },
+  "mtechStudents": {
+    "ongoing": [
+      { "serial": 1, "name": "Mr. Tasneem Jawaid", "joiningYear": "2025" },
+      { "serial": 2, "name": "Mr. Atul Kumar", "joiningYear": "2026" },
+      { "serial": 3, "name": "Mr. James Vanguru", "joiningYear": "2026" },
+      { "serial": 4, "name": "Mr. Suraj Kumar Bharti", "joiningYear": "2026" }
+    ],
+    "completed": [
+      { "serial": 5, "name": "Mr. Abhishek Kumar", "joiningYear": "2025" },
+      { "serial": 6, "name": "Mr. Rajeev Kumar Sah", "joiningYear": "2025" },
+      { "serial": 7, "name": "Mr. Rewant Singh", "joiningYear": "2025" },
+      { "serial": 8, "name": "Mr. Nurul Hassan", "joiningYear": "2024" },
+      { "serial": 9, "name": "Mr. Abhinandan Kumar", "joiningYear": "2024" },
+      { "serial": 10, "name": "Mr. Gaurav Kumar", "joiningYear": "2024" },
+      { "serial": 11, "name": "Mr. Subodh Kumar Singh", "joiningYear": "2024" },
+      { "serial": 12, "name": "Ms. Hani Singh", "joiningYear": "2023" },
+      { "serial": 13, "name": "Mr. Neeraj Kumar", "joiningYear": "2023" },
+      { "serial": 14, "name": "Mr. Ambikesh Dwivedi", "joiningYear": "2023", "awards": "Chairman Gold Medal, Silver Medal, Best Master's Project Award" },
+      { "serial": 15, "name": "Mr. Hemant Sagar", "joiningYear": "2023" },
+      { "serial": 16, "name": "Mr. Uday Shankar Yadav", "joiningYear": "2022–2023" },
+      { "serial": 17, "name": "Mr. Avadhesh Kumar", "joiningYear": "2021–2022" },
+      { "serial": 18, "name": "Md Arshad Ali", "joiningYear": "2020–2021" }
+    ]
+  },
+  "btechStudents": {
+    "ongoing": [
+      { "serial": 1, "name": "Mr. Gautam Kumar", "joiningYear": "2026" },
+      { "serial": 2, "name": "Ms. Kurelli Akshara", "joiningYear": "2026" },
+      { "serial": 3, "name": "Mr. Saurabh Kumar", "joiningYear": "2026" },
+      { "serial": 4, "name": "Amaan Ali", "joiningYear": "2026", "note": "BTech-MTech Dual Degree in Geotechnical Engineering (2304GT06)" },
+      { "serial": 5, "name": "Veesam Srivastav", "joiningYear": "2025", "note": "B.Tech–MBA (IIM BG) (2503CE03)" }
+    ],
+    "completed": [
+      { "serial": 6, "name": "Ms. Ratan Priya", "joiningYear": "2025" },
+      { "serial": 7, "name": "Ms. Boddu Bhumika", "joiningYear": "2025" },
+      { "serial": 8, "name": "Ms. Janvi Kumari", "joiningYear": "2025" },
+      { "serial": 9, "name": "Mr. Aman Raj", "joiningYear": "2024", "awards": "Institute Silver Medal Award" },
+      { "serial": 10, "name": "Ms. Anjana P.", "joiningYear": "2024", "awards": "Best BTP Award" },
+      { "serial": 11, "name": "Mr. Raj Kamal", "joiningYear": "2024" },
+      { "serial": 12, "name": "Mr. Omprakash Bairwa", "joiningYear": "2023" },
+      { "serial": 13, "name": "Ms. Tallapudi Divya Sri Lakshmi", "joiningYear": "2023", "awards": "Best BTP Award" },
+      { "serial": 14, "name": "Mr. Vivek Kumar Shukla", "joiningYear": "2023" },
+      { "serial": 15, "name": "Mr. Devansh Mishra", "joiningYear": "2023" },
+      { "serial": 16, "name": "Mr. Mukund Kumar", "joiningYear": "2022" },
+      { "serial": 17, "name": "Mr. Nikhil Kumar Agrawal", "joiningYear": "2022" },
+      { "serial": 18, "name": "Mr. Sachin Tiwari", "joiningYear": "2022" },
+      { "serial": 19, "name": "Mr. Suraj Singh", "joiningYear": "2022" },
+      { "serial": 20, "name": "Mr. Shashank Kumar", "joiningYear": "2021" },
+      { "serial": 21, "name": "Mr. Chetram Nakwal", "joiningYear": "2021" },
+      { "serial": 22, "name": "Mr. Dharmendra Kumar", "joiningYear": "2020" }
+    ]
+  }
+}

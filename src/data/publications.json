@@ -1,0 +1,310 @@
+{
+  "publications": [
+    {
+      "title": "Predicting Freeze–Thaw Resistance in Geopolymer Concrete: An Interpretable ML Model with Practical Deployment",
+      "authors": "Jaiswal, R., Bhatta, N., Yadav, Uday S., Jha, A. K.",
+      "journal": "Journal of Materials in Civil Engineering, ASCE",
+      "year": "2026",
+      "status": "Accepted, In-press",
+      "doi": ""
+    },
+    {
+      "title": "Soil–water retention and microstructural evolution of lime-treated highly compressible soil amended with nano clay",
+      "authors": "Kumar, A., Kumar, N., & Jha, A. K.",
+      "journal": "Geotechnical and Geological Engineering, Springer, 44(1), 8",
+      "year": "2026",
+      "doi": "https://doi.org/10.1007/s10706-025-03521-4"
+    },
+    {
+      "title": "A Critical Appraisal of Remediation Techniques for Heavy Metal–Contaminated Soils: Geotechnical and Geoenvironmental Perspectives",
+      "authors": "Rahman, M. A., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 30(2), 03125006",
+      "year": "2026",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1540"
+    },
+    {
+      "title": "Temperature Dependency of Grout Efficiency in Improving Mechanical Response of Jointed Sandstone Under Different Loading Conditions",
+      "authors": "Mathur, G. K., Jha, A. K., & Tiwari, G.",
+      "journal": "Rock Mechanics and Rock Engineering, Springer, 1–28",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s00603-025-05136-w"
+    },
+    {
+      "title": "Immobilization of heavy metal contaminants and their effect on the strength behavior of MICP-treated sand",
+      "authors": "Tarun, A., Divya Sri Lakshmi, T., & Jha, A. K.",
+      "journal": "Journal of Environmental Engineering, ASCE, 151(9), 04025052",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JOEEDU.EEENG-8148"
+    },
+    {
+      "title": "Cattle urine as a substitute for industrial urea for Microbially Induced Calcite Precipitation (MICP) treatment of Ganga River sand",
+      "authors": "Tarun, A., Jha, A. K.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 28",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00075-5"
+    },
+    {
+      "title": "Optimizing Biomineralization Technique on Silty Sand: Advanced Pump Flow Method with Artificial Intelligence Approach and Statistical Validation",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N., & Aeron, S.",
+      "journal": "Geomicrobiology Journal, Taylor & Francis, 1–16",
+      "year": "2025",
+      "doi": "https://doi.org/10.1080/01490451.2025.2523831"
+    },
+    {
+      "title": "Geo-disasters and sustainable construction management",
+      "authors": "Manandhar, S., Ahmad, F., Zainorabidin, A., Jha, A. K., et al.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 15",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00064-8"
+    },
+    {
+      "title": "Climate Change and Soil Resilience: A Critical Appraisal on Innovative Techniques for Sustainable Ground Improvement and Ecosystem Protection",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N., Areon, Sanjay",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, Volume 29, Issue 4",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1465"
+    },
+    {
+      "title": "Thermal and mechanical responses of pre-existing cracked rock samples under uniaxial loading: effects of heat treatment and grouting",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G. et al.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 18",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00065-7"
+    },
+    {
+      "title": "Engineering and leachability behavior of lime-treated highly compressible soil amended with nano-clay",
+      "authors": "Kumar, A., & Jha, A. K.",
+      "journal": "Acta Geotechnica, Springer, 1–21",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s11440-025-02557-3"
+    },
+    {
+      "title": "Assessing fracture mechanics in thermally treated, uniaxial loaded grouted non-persistent medium-hard rock: a digital image correlation and FracPaQ analysis",
+      "authors": "Mathur, G. K., Jha, A. K., and Tiwari, G.",
+      "journal": "Bulletin of Engineering Geology and the Environment, Springer, 84.4, 172",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s10064-025-04201-6"
+    },
+    {
+      "title": "Dynamic Response of Grouted Jointed Rock Mass to Cyclic Loading Under Extreme Temperature Conditions",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G., & Singh, T. N.",
+      "journal": "Rock Mechanics and Rock Engineering, Elsevier, 1–26",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s00603-025-04457-0"
+    },
+    {
+      "title": "Experimental study on effect of grouting and high temperature on the anisotropic compressive strength behaviour of soft jointed rocks with an impersistent flaw",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G., & Singh, T. N.",
+      "journal": "Journal of Rock Mechanics and Geotechnical Engineering, Elsevier",
+      "year": "2025",
+      "doi": "https://doi.org/10.1016/j.jrmge.2024.05.046"
+    },
+    {
+      "title": "Enhancing Mechanical Characteristics of Fly Ash and Fly Ash–Stone Dust Using Geopolymerization Technique",
+      "authors": "Yadav, U. S., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 29(2), 04025001",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1416"
+    },
+    {
+      "title": "Influence of Microbially Induced Calcite Precipitation Technique on Mitigating Rainfall-Induced Surface Erosion of the Ganga River Sand",
+      "authors": "Tarun, A., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 29(2), 04024046",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1432"
+    },
+    {
+      "title": "A Sustainable Approach for Stabilization of Coal Mine Overburden Waste: A Critical Appraisal",
+      "authors": "Pandey, S., Jha, A. K., & Singh, T. N.",
+      "journal": "Indian Geotechnical Journal, Springer, 1–19",
+      "year": "2024",
+      "doi": "https://doi.org/10.1007/s40098-024-00987-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Engineering and Leaching Behavior of Lime-Treated Fly Ash Amended with Montmorillonite Nanoclay",
+      "authors": "Kumar, A., & Jha, A. K.",
+      "journal": "Journal of Materials in Civil Engineering, ASCE, 36(11), 04024362",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JMCEE7.MTENG-17241",
+      "impactFactor": "IF: 3.20; H-5 Index: 54"
+    },
+    {
+      "title": "A Comprehensive Review of Grouts: Unraveling Biogrout Technologies for Environmental Sustainability and Limitations",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 28(3), 03124001",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1319",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Biofilm characterization and establishing microbial-induced calcite precipitation (MICP) treatment process for Ganga River sand by using the sand column method",
+      "authors": "Tarun, A., Jha, A. K.",
+      "journal": "Journal of Environmental Engineering, ASCE, 150(2), 04023097",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JOEEDU.EEENG-7477",
+      "impactFactor": "IF: 2.20; H-5 Index: 29"
+    },
+    {
+      "title": "Investigating Effect of Soluble Sodium Sulphate Contamination on Swell Behaviour of Untreated and Lime Treated Soil",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "Indian Geotechnical Journal, Springer, 1–15",
+      "year": "2023",
+      "doi": "https://doi.org/10.1007/s40098-023-00731-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of wetting-drying cycles on strength behaviour of cured lime treated soil contaminated with monovalent and divalent sulphate solutions",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "Transportation Geotechnics, Elsevier, 40, 100988",
+      "year": "2023",
+      "doi": "https://doi.org/10.1016/j.trgeo.2023.100988",
+      "impactFactor": "IF: 5.30; H-5 Index: 40"
+    },
+    {
+      "title": "Physicochemical and Strength Behavior in Lime-Treated Soil Submerged under Gypsum and Sodium Sulfate Contamination",
+      "authors": "Shivanshi, Jha, A. K., & Akhtar, M. P.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 27(2), 04023004",
+      "year": "2023",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1185",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Evaluating the behavior of marble dust-bentonite as an alternative to sand-bentonite mixes permeated with electrolyte concentrations",
+      "authors": "Jha, A. K., Jain, A. K., Akhtar, M. P.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 27(1), 04022035",
+      "year": "2022",
+      "doi": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000726",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Geotechnical properties and microanalyses of marble dust-bentonite as an alternative geomaterial of sand-bentonite mixes",
+      "authors": "Jain, A. K., Jha, A. K., Kumar, A., Akhtar, M. P.",
+      "journal": "Geomechanics and Geoengineering: An International Journal, Taylor and Francis",
+      "year": "2022",
+      "doi": "https://doi.org/10.1080/17486025.2022.2083696",
+      "impactFactor": "IF: 1.30; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of soluble sodium sulphate contamination on physical and strength behavior of untreated and lime treated soil",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "KSCE Journal of Civil Engineering, Springer",
+      "year": "2022",
+      "doi": "https://doi.org/10.1007/s12205-022-1964-6",
+      "impactFactor": "IF: 2.20; H-5 Index: 41"
+    },
+    {
+      "title": "Assessing the swelling and permeability behaviour of novel marble dust-bentonite with sand-bentonite mixes for use as a landfill liner material",
+      "authors": "Jain, A. K., Jha, A. K., Akhtar, M. P.",
+      "journal": "Indian Geotechnical Journal, Springer, 52, 675–690",
+      "year": "2022",
+      "doi": "https://doi.org/10.1007/s40098-022-00602-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Microbiological processes in improving the behavior of soils for civil engineering applications: A critical appraisal",
+      "authors": "Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 26(2), 03122001",
+      "year": "2022",
+      "doi": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000686",
+      "impactFactor": "IF: 2.70; H-5 Index: 22",
+      "note": "Best Paper recognition as per Editorial Choice"
+    },
+    {
+      "title": "Effect of soluble gypsum on swell behaviour of lime treated expansive soil – a micro-level investigation",
+      "authors": "Shivanshi, Jha, A. K., Singh, V. B., Jain, A. K.",
+      "journal": "Geomechanics and Geoengineering: An International Journal, Taylor and Francis",
+      "year": "2021",
+      "doi": "https://doi.org/10.1080/17486025.2021.1975046",
+      "impactFactor": "IF: 1.30; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of fly ash on geotechnical behaviour of red mud: a micro-mechanistic study",
+      "authors": "Jha, A. K., Kumar, D., Sivapullaiah, P. V.",
+      "journal": "Geotechnical and Geological Engineering, Springer, 38(6), 6157–6176",
+      "year": "2020",
+      "doi": "https://doi.org/10.1007/s10706-020-01425-z",
+      "impactFactor": "IF: 1.70; H-5 Index: 36"
+    }
+  ],
+  "conferencePapers": [
+    {
+      "citation": "Nakwal, Chetram, and Jha, A. K. (2022). Dynamic behavior of slope stability of bioreactor landfill. Proceedings of Indian Geotechnical Conference 2022, 15th – 17th December, 2022, Kochi.",
+      "year": "2022"
+    },
+    {
+      "citation": "Gurjar, Dharmendra Kumar and Jha, A. K. Influence of Slope Geometry and Decomposition Time-Age on Stability of Bioreactor Landfills – Numerical Analyses. Proceedings of Indian Geotechnical Conference 2021, December 16-18, 2021, NIT Tiruchirappalli. (Accepted).",
+      "year": "2021"
+    },
+    {
+      "citation": "Jain, A. K., Jha, A. K., Akhtar, M. P. (2021). Effect of electrolyte concentrations on swelling behaviour of sand- and marble dust-bentonite mixes. IOP Conf. Series: Earth and Environmental Science 796 (2021) 012068, doi:10.1088/1755-1315/796/1/012068 (open access).",
+      "year": "2021",
+      "doi": "https://doi.org/10.1088/1755-1315/796/1/012068"
+    },
+    {
+      "citation": "Shivanshi, Jha, A. K., Akhtar, M.P. (2021). Physical and geotechnical perspectives of gypsum on lime stabilized expansive soil: a critical appraisal. IOP Conf. Series: Earth and Environmental Science 796 (2021) 012064, doi:10.1088/1755-1315/796/1/012064 (open access).",
+      "year": "2021",
+      "doi": "https://doi.org/10.1088/1755-1315/796/1/012064"
+    },
+    {
+      "citation": "Shivanshi, S., Jha, A. K., & Jain, Ankush (2019). Swell behaviour of Lime treated Soil under Sulphate Contamination. Proceedings of the XVII ECSMGE-2019, Geotechnical Engineering foundation of the future, Reykjavik Iceland, 1 - 6 September 2019, doi: 10.32075/17ECSMGE-2019-0570.",
+      "year": "2019",
+      "doi": "https://doi.org/10.32075/17ECSMGE-2019-0570"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2017). Quantification of sulphate induced heave in lime stabilized soil. Indian Geotechnical Conference- 2017 GeoNEst. 14-16 December 2017, IIT Guwahati, India.",
+      "year": "2017"
+    },
+    {
+      "citation": "Jha, A. K., Pandey, Mandeep R., & Sivapullaiah, P. V. (2016). Geotechnical properties of lime treated gypseous soil with fly ash – A micro-level study. ASCE, 767-777, doi: 10.1061/9780784480144.076.",
+      "year": "2016",
+      "doi": "https://doi.org/10.1061/9780784480144.076"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2016). Potential of fly ash to enhance the behaviour of lime treated gypseous soil. International Conference on Soil and Environment (ICSE), Bangalore, India.",
+      "year": "2016"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2015). Pozzolanic additives induced strength behaviour of expansive soil: A comparative study. Proceedings of the Institution of Civil Engineers (ICE), 163(3), 149-163.",
+      "year": "2015"
+    },
+    {
+      "citation": "Jha, A. K., & Sivapullaiah, P. V. (2014). Mineralogical and microstructural induced compressibility behaviour of lime stabilized expansive soil. International Symposium Geohazards, 502-513, November 20-21, Kathmandu, Nepal.",
+      "year": "2014"
+    },
+    {
+      "citation": "Jha, A. K., and Sivapullaiah, P. V. (2014). Sulfate induced heave in calcium based stabilized soil – a mechanistic view. Seventh student symposium, 25-26 September, Department of Civil Engineering, Indian Institute of Science (IISc), India.",
+      "year": "2014"
+    },
+    {
+      "citation": "Jha, A. K., and Sivapullaiah, P. V. (2013). Strength and microstructural development in lime stabilized expansive soil. Sixth student symposium, 26-27 September, Department of Civil Engineering, Indian Institute of Science (IISc), India.",
+      "year": "2013"
+    }
+  ],
+  "books": {
+    "guestEditor": [
+      {
+        "title": "Special Issue on \"Behaviour of Geomaterials Subjected to Contamination Agents, and Its Remediation and Immobilization Techniques\"",
+        "publisher": "ASCE Journal of Hazardous, Toxic, and Radioactive Waste"
+      },
+      {
+        "title": "Special Issue 'Geo-Disaster and Smart Construction Management'",
+        "publisher": "Smart Cities and Smart Construction (SCSC) Journal, Springer"
+      }
+    ],
+    "editor": [
+      {
+        "title": "Proceedings of International Conference on Advances in Structural and Geotechnical Engineering (ASAGE 2025) – Volume 2 – Geotechnical Engineering",
+        "publisher": "Springer Nature Singapore Pte Ltd.",
+        "editors": "Arvind Kumar Jha, T. N. Singh, Vaibhav Singhal, Hemant B. Kaushik",
+        "status": "Under Process"
+      },
+      {
+        "title": "Proceedings of International Conference on Advances in Structural and Geotechnical Engineering (ASAGE 2025) – Volume 1 – Structural Engineering",
+        "publisher": "Springer Nature Singapore Pte Ltd.",
+        "editors": "Vaibhav Singhal, Hemant B. Kaushik, Arvind Kumar Jha, T. N. Singh",
+        "status": "Under Process"
+      }
+    ]
+  }
+}

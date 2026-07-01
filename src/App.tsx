@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Home, FlaskConical, BookOpen, FileText, GraduationCap, Activity, Trophy, LayoutGrid, Mail, Menu, X, Handshake } from 'lucide-react'
-import data from './data.json'
+import profileData from './data/profile.json'
 import iitpLogo from './assets/iitp-logo.png'
 
 import { HomeSection } from './pages/HomeSection'
@@ -58,7 +58,7 @@ export default function App() {
     mainRef.current?.scrollTo({ top: 0, behavior: 'instant' })
   }, [activeSection])
 
-  const { profile } = data
+  const { profile } = profileData
 
   const navigate = (label: string) => {
     setActiveSection(label)

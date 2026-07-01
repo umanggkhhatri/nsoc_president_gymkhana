@@ -1,8 +1,8 @@
 import { Mail, MapPin, Phone } from 'lucide-react'
-import data from '../data.json'
+import profileData from '../data/profile.json'
 
 export function ContactSection() {
-  const { profile } = data
+  const { profile } = profileData
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-2">Contact Details</h2>

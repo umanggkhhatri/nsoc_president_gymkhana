@@ -1,8 +1,8 @@
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import activitiesData from '../data/activities.json'
 
 export function MiscellaneousSection() {
-  const { societyMemberships } = data
+  const { societyMemberships } = activitiesData
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
       <SectionHeader

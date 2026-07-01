@@ -1,6 +1,6 @@
 import { GraduationCap, CheckCircle2, Clock, Award, Medal } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import researchData from '../data/research.json'
 
 // Reusable student pill for compact grid cards
 function StudentCard({ serial, name, joiningYear, awards, note, badgeColor }: {
@@ -66,7 +66,7 @@ function StudentSubsection({ icon: Icon, label, count, colorClass, children }: {
 }
 
 export function ResearchSection() {
-  const { focusAreas, phdStudents, mtechStudents, btechStudents } = data
+  const { focusAreas, phdStudents, mtechStudents, btechStudents } = researchData
 
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">

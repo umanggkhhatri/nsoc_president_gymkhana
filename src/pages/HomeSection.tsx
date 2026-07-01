@@ -1,8 +1,8 @@
 import { ExternalLink } from 'lucide-react'
-import data from '../data.json'
+import profileData from '../data/profile.json'
 
 export function HomeSection() {
-  const { profile } = data
+  const { profile } = profileData
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <div className="grid md:grid-cols-2 gap-12 items-center">

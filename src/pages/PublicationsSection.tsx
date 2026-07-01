@@ -1,8 +1,8 @@
 import { ExternalLink, BookOpen, Edit3, Pencil, FileText } from 'lucide-react'
-import data from '../data.json'
+import publicationsData from '../data/publications.json'
 
 export function PublicationsSection() {
-  const { conferencePapers, books } = data
+  const { conferencePapers, books } = publicationsData
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">
 

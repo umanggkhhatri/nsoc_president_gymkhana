@@ -1,6 +1,6 @@
 import { FlaskConical, Handshake, Newspaper, ExternalLink, Globe } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import activitiesData from '../data/activities.json'
 
 const typeColors: Record<string, string> = {
   'Research Project':            'bg-blue-50 text-blue-700 border-blue-200',
@@ -13,7 +13,7 @@ const typeColors: Record<string, string> = {
 }
 
 export function ServiceSection() {
-  const { researchGrants, mouCollaborations, editorialBoards } = data
+  const { researchGrants, mouCollaborations, editorialBoards } = activitiesData
 
   return (
     <section className="py-16 px-6 lg:px-12 bg-gray-50 min-h-full">

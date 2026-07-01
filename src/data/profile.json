@@ -1,0 +1,99 @@
+{
+  "profile": {
+    "name": "Dr. Arvind Kumar Jha",
+    "title": "Associate Professor",
+    "institution": "IIT Patna",
+    "department": "Department of Civil and Environmental Engineering (DCEE)",
+    "email": "jhaarvind@iitp.ac.in",
+    "emailAlt": "erarvindnp@gmail.com",
+    "phone": "+91-6115-233 807",
+    "mobile": "+91-8861556432",
+    "address": "Dr. Arvind Kumar Jha\nRoom No. 513, 5th Floor, Academic Block II\nDepartment of Civil and Environmental Engineering (DCEE)\nIIT Patna, Bihta-801103, Patna, India",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en",
+    "bio": "Associate Professor at IIT Patna specializing in Civil & Environmental Engineering. Passionate about research, teaching, and solving real-world infrastructure challenges.",
+    "affiliation": "IIT Patna, Department of Civil & Environmental Engineering",
+    "portrait": "/assets/1769380140192-Arvind_Kr_jha.jpg",
+    "stats": [
+      {
+        "value": "1000+",
+        "label": "Citations"
+      },
+      {
+        "value": "22",
+        "label": "Publications"
+      }
+    ],
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "platform": "Twitter",
+        "href": "#"
+      },
+      {
+        "platform": "GitHub",
+        "href": "#"
+      },
+      {
+        "platform": "YouTube",
+        "href": "#"
+      }
+    ]
+  },
+  "navigation": [
+    "Home",
+    "Research",
+    "Teaching",
+    "Publications",
+    "About",
+    "Contact"
+  ],
+  "educationImage": {
+    "src": "./assets/image.png",
+    "alt": "University campus building"
+  },
+  "education": [
+    {
+      "degree": "Associate Professor",
+      "uni": "Department of Civil and Environmental Engineering, Indian Institute of Technology (IIT) Patna, Bihta-801103, Bihar, India",
+      "years": "June 2024 – till date"
+    },
+    {
+      "degree": "Assistant Professor",
+      "uni": "Department of Civil and Environmental Engineering, Indian Institute of Technology (IIT) Patna, Bihta-801103, Bihar, India",
+      "years": "November 2019 – June 2024"
+    },
+    {
+      "degree": "Associate Professor",
+      "uni": "Department of Civil Engineering, Manipal University Jaipur (MUJ), India",
+      "years": "Feb 2017 – Nov 2019"
+    },
+    {
+      "degree": "Post-Doctorate",
+      "uni": "Indian Institute of Science (IISc), Bangalore",
+      "years": "Feb 2016 – Jan 2017"
+    },
+    {
+      "degree": "Doctorate",
+      "uni": "Indian Institute of Science (IISc), Bangalore",
+      "years": "Aug 2012 – Jan 2016"
+    },
+    {
+      "degree": "Masters",
+      "uni": "Institute of Engineering, Pulchowk Campus, Tribhuvan University, Nepal",
+      "years": "Nov 2009 – Jan 2011"
+    },
+    {
+      "degree": "Bachelors",
+      "uni": "Tribhuvan University, Nepal",
+      "years": "Nov 2003 – Dec 2007"
+    },
+    {
+      "degree": "Diploma",
+      "uni": "Tribhuvan University, Nepal",
+      "years": "Nov 1999 – Dec 2002"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 
 import { SectionHeader } from '../components/SectionHeader'
-import data from '../data.json'
+import teachingData from '../data/teaching.json'
 
 export function TeachingSection() {
-  const { courseGroups } = data
+  const { courseGroups } = teachingData
   return (
     <section className="py-16 px-6 lg:px-12 bg-white min-h-full">
       <SectionHeader
