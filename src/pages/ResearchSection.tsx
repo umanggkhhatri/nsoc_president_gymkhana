@@ -1,4 +1,4 @@
-import { GraduationCap, CheckCircle2, Clock, Award, Medal } from 'lucide-react'
+import { GraduationCap, CheckCircle2, Clock, Award } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
 import researchData from '../data/research.json'
 

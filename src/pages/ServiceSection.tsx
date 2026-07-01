@@ -1,15 +1,15 @@
-import { FlaskConical, Handshake, Newspaper, ExternalLink, Globe } from 'lucide-react'
+import { FlaskConical, Handshake, Newspaper, Globe } from 'lucide-react'
 import { SectionHeader } from '../components/SectionHeader'
 import activitiesData from '../data/activities.json'
 
 const typeColors: Record<string, string> = {
-  'Research Project':            'bg-blue-50 text-blue-700 border-blue-200',
-  'Research Grant':              'bg-indigo-50 text-indigo-700 border-indigo-200',
-  'Workshop Grant':              'bg-purple-50 text-purple-700 border-purple-200',
-  'Seminar/Symposia Grant':      'bg-violet-50 text-violet-700 border-violet-200',
+  'Research Project': 'bg-blue-50 text-blue-700 border-blue-200',
+  'Research Grant': 'bg-indigo-50 text-indigo-700 border-indigo-200',
+  'Workshop Grant': 'bg-purple-50 text-purple-700 border-purple-200',
+  'Seminar/Symposia Grant': 'bg-violet-50 text-violet-700 border-violet-200',
   'Course Material Development': 'bg-teal-50 text-teal-700 border-teal-200',
   'Industry Sponsored Research': 'bg-amber-50 text-amber-700 border-amber-200',
-  'Seed Grant':                  'bg-green-50 text-green-700 border-green-200',
+  'Seed Grant': 'bg-green-50 text-green-700 border-green-200',
 }
 
 export function ServiceSection() {
