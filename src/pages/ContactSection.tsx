@@ -23,9 +23,14 @@ export function ContactSection() {
           <Mail className="w-5 h-5 text-blue-500 mt-0.5 shrink-0" />
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Email Id</p>
-            <a href={`mailto:${profile.email}`} className="text-base font-medium text-blue-600 hover:underline underline-offset-2">
+            <a href={`mailto:${profile.email}`} className="block text-base font-medium text-blue-600 hover:underline underline-offset-2">
               {profile.email}
             </a>
+            {profile.emailAlt && (
+              <a href={`mailto:${profile.emailAlt}`} className="block text-base font-medium text-blue-600 hover:underline underline-offset-2 mt-1">
+                {profile.emailAlt}
+              </a>
+            )}
           </div>
         </div>
 
@@ -34,9 +39,22 @@ export function ContactSection() {
           <Phone className="w-5 h-5 text-blue-500 mt-0.5 shrink-0" />
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">Contact No.</p>
-            <a href={`tel:${profile.phone}`} className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors">
-              {profile.phone}
-            </a>
+            <div className="flex flex-col gap-1">
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-gray-400 w-14">Office:</span>
+                <a href={`tel:${profile.phone}`} className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors">
+                  {profile.phone}
+                </a>
+              </div>
+              {profile.mobile && (
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-gray-400 w-14">Mobile:</span>
+                  <a href={`tel:${profile.mobile}`} className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors">
+                    {profile.mobile}
+                  </a>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

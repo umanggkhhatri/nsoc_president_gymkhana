@@ -3,10 +3,12 @@
     "name": "Dr. Arvind Kumar Jha",
     "title": "Associate Professor",
     "institution": "IIT Patna",
-    "department": "Department of Civil & Environmental Engineering",
-    "email": "[jhaarvind@iitp.ac.in]",
+    "department": "Department of Civil and Environmental Engineering (DCEE)",
+    "email": "jhaarvind@iitp.ac.in",
+    "emailAlt": "erarvindnp@gmail.com",
     "phone": "+91-6115-233 807",
-    "address": "Dr. Arvind Kumar Jha\nRoom No. 513, 5th Floor, Academic Block II\nDepartment of Civil & Environmental Engineering\nIIT Patna, Bihta, Patna, Bihar, 801106",
+    "mobile": "+91-8861556432",
+    "address": "Dr. Arvind Kumar Jha\nRoom No. 513, 5th Floor, Academic Block II\nDepartment of Civil and Environmental Engineering (DCEE)\nIIT Patna, Bihta-801103, Patna, India",
     "googleScholarUrl": "https://scholar.google.com/citations?user=ujQ_csYAAAAJ&hl=en",
     "bio": "Associate Professor at IIT Patna specializing in Civil & Environmental Engineering. Passionate about research, teaching, and solving real-world infrastructure challenges.",
     "affiliation": "IIT Patna, Department of Civil & Environmental Engineering",
@@ -77,6 +79,136 @@
       "title": "Rock Mechanics and Underground Excavation"
     }
   ],
+  "phdStudents": {
+    "awarded": [
+      {
+        "serial": 1,
+        "name": "Dr. Ankush Kumar Jain",
+        "period": "July 2017 – November 2022",
+        "thesis": "Potential use of marble dust as a geomaterial with soils and bentonite – a hydrochemo-mechanical study"
+      },
+      {
+        "serial": 2,
+        "name": "Dr. Shivanshi",
+        "period": "July 2017 – February 2023",
+        "thesis": "Quantification and controlling mechanisms of sulphate induced heave in lime stabilized soil"
+      },
+      {
+        "serial": 3,
+        "name": "Dr. Abhishek Tarun",
+        "period": "August 2020 – December 2025",
+        "thesis": "Efficacy of Microorganisms to Improve the Behaviour of Ganga River Sand Using Microbially Induced Calcite Precipitation (MICP) Technique for Geotechnical and Geoenvironmental Applications"
+      },
+      {
+        "serial": 4,
+        "name": "Dr. Gaurav Kumar Mathur",
+        "period": "January 2021 – June 2026",
+        "thesis": "Thermo-Mechanical and Freeze–Thaw Induced Damage in Jointed and Grouted Rock Mass Under Different Loading Systems"
+      }
+    ],
+    "ongoing": [
+      {
+        "serial": 1,
+        "name": "Mr. Ajeet Kumar",
+        "joiningYear": "July 2020",
+        "area": "Application of Nanomaterials for Soil/Ground Improvement"
+      },
+      {
+        "serial": 2,
+        "name": "Mr. Shailendra Kumar Singh",
+        "joiningYear": "January 2020",
+        "area": "Effect of Metal Sulphates on Lime Treated Expansive Soil"
+      },
+      {
+        "serial": 3,
+        "name": "Mr. Shivam Pandey",
+        "joiningYear": "January 2022",
+        "area": "Strengthening of Coal Mine Overburden Waste (CMOW)"
+      },
+      {
+        "serial": 4,
+        "name": "Mr. Anisoor Rahman",
+        "joiningYear": "January 2023",
+        "area": "Remediation of contaminant ground"
+      },
+      {
+        "serial": 5,
+        "name": "Md Arshad Ali",
+        "joiningYear": "July 2024",
+        "area": "MICP application in landfill liner barrier system"
+      },
+      {
+        "serial": 6,
+        "name": "Mr. Sumitindra Sarkar",
+        "joiningYear": "January 2026",
+        "area": "Dynamic Analysis of RE Wall"
+      },
+      {
+        "serial": 7,
+        "name": "Mr. Saurav Prakash Arya",
+        "joiningYear": "January 2026",
+        "area": "Geophysical Investigation"
+      },
+      {
+        "serial": 8,
+        "name": "Mr. Rewant Rawat",
+        "joiningYear": "July 2026",
+        "area": "Geophysical Investigation"
+      }
+    ]
+  },
+  "mtechStudents": {
+    "ongoing": [
+      { "serial": 1, "name": "Mr. Tasneem Jawaid", "joiningYear": "2025" },
+      { "serial": 2, "name": "Mr. Atul Kumar", "joiningYear": "2026" },
+      { "serial": 3, "name": "Mr. James Vanguru", "joiningYear": "2026" },
+      { "serial": 4, "name": "Mr. Suraj Kumar Bharti", "joiningYear": "2026" }
+    ],
+    "completed": [
+      { "serial": 5, "name": "Mr. Abhishek Kumar", "joiningYear": "2025" },
+      { "serial": 6, "name": "Mr. Rajeev Kumar Sah", "joiningYear": "2025" },
+      { "serial": 7, "name": "Mr. Rewant Singh", "joiningYear": "2025" },
+      { "serial": 8, "name": "Mr. Nurul Hassan", "joiningYear": "2024" },
+      { "serial": 9, "name": "Mr. Abhinandan Kumar", "joiningYear": "2024" },
+      { "serial": 10, "name": "Mr. Gaurav Kumar", "joiningYear": "2024" },
+      { "serial": 11, "name": "Mr. Subodh Kumar Singh", "joiningYear": "2024" },
+      { "serial": 12, "name": "Ms. Hani Singh", "joiningYear": "2023" },
+      { "serial": 13, "name": "Mr. Neeraj Kumar", "joiningYear": "2023" },
+      { "serial": 14, "name": "Mr. Ambikesh Dwivedi", "joiningYear": "2023", "awards": "Chairman Gold Medal, Silver Medal, Best Master's Project Award" },
+      { "serial": 15, "name": "Mr. Hemant Sagar", "joiningYear": "2023" },
+      { "serial": 16, "name": "Mr. Uday Shankar Yadav", "joiningYear": "2022–2023" },
+      { "serial": 17, "name": "Mr. Avadhesh Kumar", "joiningYear": "2021–2022" },
+      { "serial": 18, "name": "Md Arshad Ali", "joiningYear": "2020–2021" }
+    ]
+  },
+  "btechStudents": {
+    "ongoing": [
+      { "serial": 1, "name": "Mr. Gautam Kumar", "joiningYear": "2026" },
+      { "serial": 2, "name": "Ms. Kurelli Akshara", "joiningYear": "2026" },
+      { "serial": 3, "name": "Mr. Saurabh Kumar", "joiningYear": "2026" },
+      { "serial": 4, "name": "Amaan Ali", "joiningYear": "2026", "note": "BTech-MTech Dual Degree in Geotechnical Engineering (2304GT06)" },
+      { "serial": 5, "name": "Veesam Srivastav", "joiningYear": "2025", "note": "B.Tech–MBA (IIM BG) (2503CE03)" }
+    ],
+    "completed": [
+      { "serial": 6, "name": "Ms. Ratan Priya", "joiningYear": "2025" },
+      { "serial": 7, "name": "Ms. Boddu Bhumika", "joiningYear": "2025" },
+      { "serial": 8, "name": "Ms. Janvi Kumari", "joiningYear": "2025" },
+      { "serial": 9, "name": "Mr. Aman Raj", "joiningYear": "2024", "awards": "Institute Silver Medal Award" },
+      { "serial": 10, "name": "Ms. Anjana P.", "joiningYear": "2024", "awards": "Best BTP Award" },
+      { "serial": 11, "name": "Mr. Raj Kamal", "joiningYear": "2024" },
+      { "serial": 12, "name": "Mr. Omprakash Bairwa", "joiningYear": "2023" },
+      { "serial": 13, "name": "Ms. Tallapudi Divya Sri Lakshmi", "joiningYear": "2023", "awards": "Best BTP Award" },
+      { "serial": 14, "name": "Mr. Vivek Kumar Shukla", "joiningYear": "2023" },
+      { "serial": 15, "name": "Mr. Devansh Mishra", "joiningYear": "2023" },
+      { "serial": 16, "name": "Mr. Mukund Kumar", "joiningYear": "2022" },
+      { "serial": 17, "name": "Mr. Nikhil Kumar Agrawal", "joiningYear": "2022" },
+      { "serial": 18, "name": "Mr. Sachin Tiwari", "joiningYear": "2022" },
+      { "serial": 19, "name": "Mr. Suraj Singh", "joiningYear": "2022" },
+      { "serial": 20, "name": "Mr. Shashank Kumar", "joiningYear": "2021" },
+      { "serial": 21, "name": "Mr. Chetram Nakwal", "joiningYear": "2021" },
+      { "serial": 22, "name": "Mr. Dharmendra Kumar", "joiningYear": "2020" }
+    ]
+  },
   "courseGroups": [
     {
       "institution": "At IIT Patna",
@@ -106,34 +238,258 @@
       ]
     }
   ],
+  "books": {
+    "guestEditor": [
+      {
+        "title": "Special Issue on \"Behaviour of Geomaterials Subjected to Contamination Agents, and Its Remediation and Immobilization Techniques\"",
+        "publisher": "ASCE Journal of Hazardous, Toxic, and Radioactive Waste"
+      },
+      {
+        "title": "Special Issue 'Geo-Disaster and Smart Construction Management'",
+        "publisher": "Smart Cities and Smart Construction (SCSC) Journal, Springer"
+      }
+    ],
+    "editor": [
+      {
+        "title": "Proceedings of International Conference on Advances in Structural and Geotechnical Engineering (ASAGE 2025) – Volume 2 – Geotechnical Engineering",
+        "publisher": "Springer Nature Singapore Pte Ltd.",
+        "editors": "Arvind Kumar Jha, T. N. Singh, Vaibhav Singhal, Hemant B. Kaushik",
+        "status": "Under Process"
+      },
+      {
+        "title": "Proceedings of International Conference on Advances in Structural and Geotechnical Engineering (ASAGE 2025) – Volume 1 – Structural Engineering",
+        "publisher": "Springer Nature Singapore Pte Ltd.",
+        "editors": "Vaibhav Singhal, Hemant B. Kaushik, Arvind Kumar Jha, T. N. Singh",
+        "status": "Under Process"
+      }
+    ]
+  },
   "publications": [
     {
-      "title": "Mechanism of improvement in the strength and volume change behavior of lime stabilized soil",
-      "authors": "AK Jha, PV Sivapullaiah",
-      "journal": "Engineering Geology 198, 53-64",
-      "year": "2015",
-      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S001379521530051X"
+      "title": "Predicting Freeze–Thaw Resistance in Geopolymer Concrete: An Interpretable ML Model with Practical Deployment",
+      "authors": "Jaiswal, R., Bhatta, N., Yadav, Uday S., Jha, A. K.",
+      "journal": "Journal of Materials in Civil Engineering, ASCE",
+      "year": "2026",
+      "status": "Accepted, In-press",
+      "doi": ""
     },
     {
-      "title": "Gypsum induced strength behaviour of fly ash-lime stabilized expansive soil",
-      "authors": "PVS A. K. Jha",
-      "journal": "Geotechnical and Geological Engineering 32 (5), 1261-1273",
-      "year": "2014",
-      "doi": "https://link.springer.com/article/10.1007/s10706-014-9799-7"
+      "title": "Soil–water retention and microstructural evolution of lime-treated highly compressible soil amended with nano clay",
+      "authors": "Kumar, A., Kumar, N., & Jha, A. K.",
+      "journal": "Geotechnical and Geological Engineering, Springer, 44(1), 8",
+      "year": "2026",
+      "doi": "https://doi.org/10.1007/s10706-025-03521-4"
     },
     {
-      "title": "Geotechnical behaviour and micro-analyses of expansive soil amended with marble dust",
-      "authors": "AK Jain, AK Jha",
-      "journal": "Soils and Foundations 60 (4), 737-751",
+      "title": "A Critical Appraisal of Remediation Techniques for Heavy Metal–Contaminated Soils: Geotechnical and Geoenvironmental Perspectives",
+      "authors": "Rahman, M. A., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 30(2), 03125006",
+      "year": "2026",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1540"
+    },
+    {
+      "title": "Temperature Dependency of Grout Efficiency in Improving Mechanical Response of Jointed Sandstone Under Different Loading Conditions",
+      "authors": "Mathur, G. K., Jha, A. K., & Tiwari, G.",
+      "journal": "Rock Mechanics and Rock Engineering, Springer, 1–28",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s00603-025-05136-w"
+    },
+    {
+      "title": "Immobilization of heavy metal contaminants and their effect on the strength behavior of MICP-treated sand",
+      "authors": "Tarun, A., Divya Sri Lakshmi, T., & Jha, A. K.",
+      "journal": "Journal of Environmental Engineering, ASCE, 151(9), 04025052",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JOEEDU.EEENG-8148"
+    },
+    {
+      "title": "Cattle urine as a substitute for industrial urea for Microbially Induced Calcite Precipitation (MICP) treatment of Ganga River sand",
+      "authors": "Tarun, A., Jha, A. K.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 28",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00075-5"
+    },
+    {
+      "title": "Optimizing Biomineralization Technique on Silty Sand: Advanced Pump Flow Method with Artificial Intelligence Approach and Statistical Validation",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N., & Aeron, S.",
+      "journal": "Geomicrobiology Journal, Taylor & Francis, 1–16",
+      "year": "2025",
+      "doi": "https://doi.org/10.1080/01490451.2025.2523831"
+    },
+    {
+      "title": "Geo-disasters and sustainable construction management",
+      "authors": "Manandhar, S., Ahmad, F., Zainorabidin, A., Jha, A. K., et al.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 15",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00064-8"
+    },
+    {
+      "title": "Climate Change and Soil Resilience: A Critical Appraisal on Innovative Techniques for Sustainable Ground Improvement and Ecosystem Protection",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N., Areon, Sanjay",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, Volume 29, Issue 4",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1465"
+    },
+    {
+      "title": "Thermal and mechanical responses of pre-existing cracked rock samples under uniaxial loading: effects of heat treatment and grouting",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G. et al.",
+      "journal": "Smart Constr. Sustain. Cities, Springer, 3, 18",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s44268-025-00065-7"
+    },
+    {
+      "title": "Engineering and leachability behavior of lime-treated highly compressible soil amended with nano-clay",
+      "authors": "Kumar, A., & Jha, A. K.",
+      "journal": "Acta Geotechnica, Springer, 1–21",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s11440-025-02557-3"
+    },
+    {
+      "title": "Assessing fracture mechanics in thermally treated, uniaxial loaded grouted non-persistent medium-hard rock: a digital image correlation and FracPaQ analysis",
+      "authors": "Mathur, G. K., Jha, A. K., and Tiwari, G.",
+      "journal": "Bulletin of Engineering Geology and the Environment, Springer, 84.4, 172",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s10064-025-04201-6"
+    },
+    {
+      "title": "Dynamic Response of Grouted Jointed Rock Mass to Cyclic Loading Under Extreme Temperature Conditions",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G., & Singh, T. N.",
+      "journal": "Rock Mechanics and Rock Engineering, Elsevier, 1–26",
+      "year": "2025",
+      "doi": "https://doi.org/10.1007/s00603-025-04457-0"
+    },
+    {
+      "title": "Experimental study on effect of grouting and high temperature on the anisotropic compressive strength behaviour of soft jointed rocks with an impersistent flaw",
+      "authors": "Mathur, G. K., Jha, A. K., Tiwari, G., & Singh, T. N.",
+      "journal": "Journal of Rock Mechanics and Geotechnical Engineering, Elsevier",
+      "year": "2025",
+      "doi": "https://doi.org/10.1016/j.jrmge.2024.05.046"
+    },
+    {
+      "title": "Enhancing Mechanical Characteristics of Fly Ash and Fly Ash–Stone Dust Using Geopolymerization Technique",
+      "authors": "Yadav, U. S., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 29(2), 04025001",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1416"
+    },
+    {
+      "title": "Influence of Microbially Induced Calcite Precipitation Technique on Mitigating Rainfall-Induced Surface Erosion of the Ganga River Sand",
+      "authors": "Tarun, A., & Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 29(2), 04024046",
+      "year": "2025",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1432"
+    },
+    {
+      "title": "A Sustainable Approach for Stabilization of Coal Mine Overburden Waste: A Critical Appraisal",
+      "authors": "Pandey, S., Jha, A. K., & Singh, T. N.",
+      "journal": "Indian Geotechnical Journal, Springer, 1–19",
+      "year": "2024",
+      "doi": "https://doi.org/10.1007/s40098-024-00987-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Engineering and Leaching Behavior of Lime-Treated Fly Ash Amended with Montmorillonite Nanoclay",
+      "authors": "Kumar, A., & Jha, A. K.",
+      "journal": "Journal of Materials in Civil Engineering, ASCE, 36(11), 04024362",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JMCEE7.MTENG-17241",
+      "impactFactor": "IF: 3.20; H-5 Index: 54"
+    },
+    {
+      "title": "A Comprehensive Review of Grouts: Unraveling Biogrout Technologies for Environmental Sustainability and Limitations",
+      "authors": "Naskar, J., Jha, A. K., Singh, T. N.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 28(3), 03124001",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1319",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Biofilm characterization and establishing microbial-induced calcite precipitation (MICP) treatment process for Ganga River sand by using the sand column method",
+      "authors": "Tarun, A., Jha, A. K.",
+      "journal": "Journal of Environmental Engineering, ASCE, 150(2), 04023097",
+      "year": "2024",
+      "doi": "https://doi.org/10.1061/JOEEDU.EEENG-7477",
+      "impactFactor": "IF: 2.20; H-5 Index: 29"
+    },
+    {
+      "title": "Investigating Effect of Soluble Sodium Sulphate Contamination on Swell Behaviour of Untreated and Lime Treated Soil",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "Indian Geotechnical Journal, Springer, 1–15",
+      "year": "2023",
+      "doi": "https://doi.org/10.1007/s40098-023-00731-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of wetting-drying cycles on strength behaviour of cured lime treated soil contaminated with monovalent and divalent sulphate solutions",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "Transportation Geotechnics, Elsevier, 40, 100988",
+      "year": "2023",
+      "doi": "https://doi.org/10.1016/j.trgeo.2023.100988",
+      "impactFactor": "IF: 5.30; H-5 Index: 40"
+    },
+    {
+      "title": "Physicochemical and Strength Behavior in Lime-Treated Soil Submerged under Gypsum and Sodium Sulfate Contamination",
+      "authors": "Shivanshi, Jha, A. K., & Akhtar, M. P.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 27(2), 04023004",
+      "year": "2023",
+      "doi": "https://doi.org/10.1061/JHTRBP.HZENG-1185",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Evaluating the behavior of marble dust-bentonite as an alternative to sand-bentonite mixes permeated with electrolyte concentrations",
+      "authors": "Jha, A. K., Jain, A. K., Akhtar, M. P.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 27(1), 04022035",
+      "year": "2022",
+      "doi": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000726",
+      "impactFactor": "IF: 2.70; H-5 Index: 22"
+    },
+    {
+      "title": "Geotechnical properties and microanalyses of marble dust-bentonite as an alternative geomaterial of sand-bentonite mixes",
+      "authors": "Jain, A. K., Jha, A. K., Kumar, A., Akhtar, M. P.",
+      "journal": "Geomechanics and Geoengineering: An International Journal, Taylor and Francis",
+      "year": "2022",
+      "doi": "https://doi.org/10.1080/17486025.2022.2083696",
+      "impactFactor": "IF: 1.30; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of soluble sodium sulphate contamination on physical and strength behavior of untreated and lime treated soil",
+      "authors": "Shivanshi, Jha, A. K., Akhtar, M. P.",
+      "journal": "KSCE Journal of Civil Engineering, Springer",
+      "year": "2022",
+      "doi": "https://doi.org/10.1007/s12205-022-1964-6",
+      "impactFactor": "IF: 2.20; H-5 Index: 41"
+    },
+    {
+      "title": "Assessing the swelling and permeability behaviour of novel marble dust-bentonite with sand-bentonite mixes for use as a landfill liner material",
+      "authors": "Jain, A. K., Jha, A. K., Akhtar, M. P.",
+      "journal": "Indian Geotechnical Journal, Springer, 52, 675–690",
+      "year": "2022",
+      "doi": "https://doi.org/10.1007/s40098-022-00602-6",
+      "impactFactor": "IF: 1.40; H-5 Index: 18"
+    },
+    {
+      "title": "Microbiological processes in improving the behavior of soils for civil engineering applications: A critical appraisal",
+      "authors": "Jha, A. K.",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste, ASCE, 26(2), 03122001",
+      "year": "2022",
+      "doi": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000686",
+      "impactFactor": "IF: 2.70; H-5 Index: 22",
+      "note": "Best Paper recognition as per Editorial Choice"
+    },
+    {
+      "title": "Effect of soluble gypsum on swell behaviour of lime treated expansive soil – a micro-level investigation",
+      "authors": "Shivanshi, Jha, A. K., Singh, V. B., Jain, A. K.",
+      "journal": "Geomechanics and Geoengineering: An International Journal, Taylor and Francis",
+      "year": "2021",
+      "doi": "https://doi.org/10.1080/17486025.2021.1975046",
+      "impactFactor": "IF: 1.30; H-5 Index: 18"
+    },
+    {
+      "title": "Influence of fly ash on geotechnical behaviour of red mud: a micro-mechanistic study",
+      "authors": "Jha, A. K., Kumar, D., Sivapullaiah, P. V.",
+      "journal": "Geotechnical and Geological Engineering, Springer, 38(6), 6157–6176",
       "year": "2020",
-      "doi": "https://www.sciencedirect.com/science/article/pii/S0038080620336659"
-    },
-    {
-      "title": "Volume change behavior of lime treated gypseous soil — influence of mineralogy and microstructure",
-      "authors": "AK Jha, PV Sivapullaiah",
-      "journal": "Applied Clay Science 119, 202-212",
-      "year": "2016",
-      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0169131715301253"
+      "doi": "https://doi.org/10.1007/s10706-020-01425-z",
+      "impactFactor": "IF: 1.70; H-5 Index: 36"
     }
   ],
   "conferencePapers": [
@@ -240,38 +596,103 @@
     {
       "icon": "BookOpen",
       "title": "Editorial Board Member",
-      "desc": "Reviewing manuscripts for Nature Computational Science and Genome Research."
+      "desc": "Associate Editor and Editorial Board Member for several international journals including ASCE, Springer, and Springer Nature."
     },
     {
       "icon": "Globe",
-      "title": "Conference Chair",
-      "desc": "Program chair for ISMB 2024 and RECOMB 2023."
+      "title": "Conference Organiser",
+      "desc": "Invited speaker and keynote lecturer at international conferences across Asia, Europe, and North America."
     },
     {
       "icon": "HeartHandshake",
-      "title": "NIH Grant Reviewer",
-      "desc": "Serving on NIH study sections for genomics and computational biology grants."
+      "title": "Society Member",
+      "desc": "Life member and committee member of IGS, ISRM, ISET, ASCE Geo-Institute, and Indian Road Congress."
     },
     {
       "icon": "Pen",
-      "title": "Science Communicator",
-      "desc": "Contributing articles to Quanta Magazine and The Scientist to popularize research."
+      "title": "Research Supervisor",
+      "desc": "Supervising PhD, M.Tech and B.Tech students in geotechnical and geoenvironmental engineering research."
+    }
+  ],
+  "editorialBoards": [
+    {
+      "role": "Associate Editor",
+      "journal": "Journal of Hazardous, Toxic, and Radioactive Waste",
+      "publisher": "ASCE"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Discover Civil Engineering",
+      "publisher": "Springer"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Scientific Reports",
+      "publisher": "Springer Nature"
+    },
+    {
+      "role": "Review Editor",
+      "journal": "Geotechnical Engineering (specialty section of Frontiers in Built Environment)",
+      "publisher": "Frontiers"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Structural Engineering and Analysis",
+      "publisher": "",
+      "eissn": "2456-5326"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Geological and Geotechnical Engineering",
+      "publisher": "",
+      "eissn": "2581-5598"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "International Journal of Concrete Technology",
+      "publisher": "",
+      "eissn": "2456-8317"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Recent Trends in Civil Engineering & Technology (RTCET)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2249-8753",
+      "issn": "2321-6476"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Journal of Geotechnical Engineering (JoGE)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2394-1987"
+    },
+    {
+      "role": "Editorial Board Member",
+      "journal": "Trends in Transport Engineering and Applications (TTEA)",
+      "publisher": "STM Journals Publication",
+      "eissn": "2394-7284"
     }
   ],
   "invitedLectures": [
-    "Delivered an Invited lecture on International conference on GeoMandu, An NGS International Conference Series during 16-17 March, 2023, Kathmandu, Nepal.",
-    "Delivered an expert lecture on e-Short Term Course (e-STC), on \"Advances in Transportation and Environmental Geotechnics (ATEG-2022)\" held during 4-8th April, 2022 at NIT Hamirpur.",
+    "Invited Speaker on the \"15th IAEG Asian Regional Conference (ARC-15),\" held in Kathmandu, Nepal from November 27–29, 2025.",
+    "Delivered a talk/lecture organized by IGS student chapter IIT Roorkee in association of the Department of Civil Engineering, January 2025.",
+    "Invited Speaker on the \"International Conference on Geo-Disaster and Construction Engineering (ICGCE-2024)\" held at the University of Waterloo, June 07–08, 2024.",
+    "Delivered Keynote Lecture on 2nd International Conference on Geotechnical Issues in Energy, Infrastructure and Disaster Management (ICGEID-2024), 18–20th January 2024, DCEE, IIT Patna.",
+    "Young Researcher Special Speakers on 2nd International Conference on Construction Resources for Environmentally Sustainable Technologies (CREST 2023), Fukuoka International Congress Center, Fukuoka, Japan, November 20–22, 2023.",
+    "Delivered Keynote Lecture on International Conference on Interdisciplinary Approaches in Civil Engineering for Sustainable Development (IACESD-2023), 7–8th July 2023, Jyothy Institute of Technology Bangalore under the banner of G20 C20.",
+    "Delivered an Invited lecture on International conference on GeoMandu, An NGS International Conference Series during 16–17th March, 2023, Kathmandu, Nepal.",
+    "Delivered an expert lecture on e-Short Term Course (e-STC), on \"Advances in Transportation and Environmental Geotechnics (ATEG-2022)\" held during 4–8th April, 2022 at NIT Hamirpur.",
     "Delivered an expert lecture on \"Seepage analysis through soil mass and its application\" organized by Manipal University Jaipur, 12th November, 2021.",
     "Delivered an expert lecture on \"Flow through the soil mass and its application\" organized by Manipal University Jaipur, 08th November, 2021.",
-    "Delivered an expert lecture on the Short-term course (STC) entitled \"Advances in Geotechnical and Geo-Environmental Engineering (AGGE)\" organized by NIT Patna and IGS Bihar and Jharkhand Chapter, 25th-29th October, 2021.",
-    "Delivered the guest expert lecture on the occasion of engineer's day on the \"Recent Advances in Geotechnical Engineering and its Importance in Civil Engineering\" organized by Government Polytechnic Daman, 15 September, 2021.",
-    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Sustainability Engineering\", sponsored by AICTE, ATAL learning academy and organized by RTU KOTA during 05th – 09th, July, 2021.",
-    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Environmental Geotechnology\", sponsored by AICTE, ATAL learning academy and organized by NIT GOA during 21st – 25th, June, 2021.",
-    "Delivered three expert lectures on 5-day e-FDP on \"REACH 2021\" organized by Department of Civil Engineering, Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex, Dum Dum, Kolkata during 05th to 09th April, 2021.",
-    "Delivered an expert lecture on one-week e-Short Term Course (e-STC), on \"Recent Advances in Geotechnical Engineering (RAGE-2021)\" held during 1st March – 5th March 2021 at NIT Hamirpur.",
-    "Delivered an Expert Lecture on 5-day webinar \"Recent Advances and Challenges in Geotechnical Engineering\" an Industry Academia Interaction Initiative, organized by Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology, Chennai, India, 08 – 12 December, 2020.",
+    "Delivered an expert lecture on the Short-term course (STC) entitled \"Advances in Geotechnical and Geo-Environmental Engineering (AGGE)\" organized by NIT Patna and IGS Bihar and Jharkhand Chapter, 25th–29th October, 2021.",
+    "Delivered the guest expert lecture on the occasion of engineer's day on the \"Recent Advances in Geotechnical Engineering and its Importance in Civil Engineering\" organized by Government Polytechnic Daman, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu, 15 September, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Sustainability Engineering\", sponsored by AICTE, ATAL learning academy and organized by RTU KOTA during 05th–09th, July, 2021.",
+    "Delivered an expert lecture on 5-day online Faculty Development Program (FDP) on \"Environmental Geotechnology\", sponsored by AICTE, ATAL learning academy and organized by NIT GOA during 21st–25th, June, 2021.",
+    "Delivered three expert lectures on 5-day e-FDP on \"REACH 2021\" organized by Department of Civil Engineering, Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex, Dum Dum, Kolkata-700074 during 05th to 09th April, 2021.",
+    "Delivered an expert lecture on one-week e-Short Term Course (e-STC), on \"Recent Advances in Geotechnical Engineering (RAGE-2021)\" held during 1st–5th March 2021 at NIT Hamirpur.",
+    "Delivered an Expert Lecture on 5-day webinar \"Recent Advances and Challenges in Geotechnical Engineering\" an Industry Academia Interaction Initiative, organized by Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology, Chennai, India, 08–12 December, 2020.",
     "Delivered an Expert Lecture under TEQIP program at Loknayak Jai Prakash Institute of Technology (LNJPIT), 25 January, 2020.",
-    "Delivered Keynote Lecture on topic \"Chemical Stabilization of Soils — Scopes and Challenges\" at National Level Short Term Course on \"Geotechnical Investigation & Ground Improvement- Aspects & Prospects\", organized by JKL University, Jaipur, 19-21 Feb., 2018."
+    "Delivered Keynote Lecture on topic \"Chemical Stabilization of Soils — Scopes and Challenges\" at National Level Short Term Course on \"Geotechnical Investigation & Ground Improvement — Aspects & Prospects\", organized by JKL University, Jaipur, 19–21 Feb., 2018."
   ],
   "awards": [
     {
@@ -288,26 +709,262 @@
       "icon": "GraduationCap",
       "title": "International Scholarship for PhD by Indian Institute of Science (IISc), Bangalore, India",
       "year": "2012"
-    },
-    {
-      "icon": "BookMarked",
-      "title": "MSc Dissertation Grant by National Academy of Science and Technology (NAST), Nepal",
-      "year": "2011"
-    },
-    {
-      "icon": "Star",
-      "title": "MSc Merit Scholarship by Institute of Engineering, Pulchowk Campus, Tribhuvan University, Nepal",
-      "year": "2009"
     }
   ],
   "societyMemberships": [
-    "American Society of Civil Engineers (ASCE)",
+    "Member, International Society for Rock Mechanics and Rock Engineering (ISRM), India",
     "ASCE Geo-Institute Soil Improvement Committee Member",
-    "Executive Committee Member, IGS Bihar & Jharkhand Chapter",
     "Indian Geotechnical Society (IGS) (Life Member)",
+    "Executive Committee Member, IGS Bihar & Jharkhand Chapter",
     "Indian Society of Earthquake Technology (ISET) (Life Member)",
-    "Nepal Engineering Council (NEC) (Life Member)",
-    "Nepal Engineers Association (NEA) (Life Member)",
-    "Nepal Geotechnical Society (NGS) (Life Member)"
+    "Affiliate Member, American Society of Civil Engineers (ASCE)",
+    "Indian Road Congress (IRC)"
+  ],
+  "researchGrants": [
+    {
+      "serial": 1,
+      "title": "Development of Centre of Excellence for Advanced Geophysical and Structural Investigation & Waste-to-Wealth Technologies (CoE-AGSWT)",
+      "fundingAgency": "Bhartiya Rail Bijlee Company Limited (BRBCL), Nabinagar Super Thermal Power Project",
+      "type": "Research Project",
+      "year": "28th March 2026"
+    },
+    {
+      "serial": 2,
+      "title": "Development of Natural and Cost-Effective Biogrout using Indigenous Soil Bacteria through Microbially Induced Carbonate Precipitation (MICP) for Ground Improvement and Surface Erosion Control",
+      "fundingAgency": "Advanced Research Grant (ARG), ANRF, GoI, India",
+      "type": "Research Grant",
+      "year": "2026"
+    },
+    {
+      "serial": 3,
+      "title": "Stirred Tank Leaching System for Selective Recovery of Rare Earth Elements from Spent NdFeB Permanent Magnets using Organic Acid-based Deep Eutectic Solvent",
+      "fundingAgency": "Advanced Research Grant (ARG), ANRF, GoI, India",
+      "type": "Research Grant",
+      "investigators": "Dr. S Hait (PI); Dr. Arvind Kumar Jha (Co-PI); Prof. Alok Sinha (Co-PI)",
+      "year": "30.04.2026"
+    },
+    {
+      "serial": 4,
+      "title": "Workshop Grant on \"INFRA-IMPACT: Integrated Training on Bridge and Pavement Design, Inspection, Monitoring, Performance Assessment and Capacity Building\"",
+      "fundingAgency": "Rural Works Department (RWD), Bihar, India",
+      "type": "Workshop Grant",
+      "year": ""
+    },
+    {
+      "serial": 5,
+      "title": "Developing Course Material on Indigenous Knowledge Systems (IKS) in Ancient Construction Practices Aligned with NEP 2020, Civil and Architectural Science",
+      "fundingAgency": "Indian Knowledge Systems Division, Ministry of Education, Govt. of India, IKS Internship 2025-26 (BGS Samvahan Karyakram 5)",
+      "type": "Course Material Development",
+      "year": "2025"
+    },
+    {
+      "serial": 6,
+      "title": "Seminar/Symposia Scheme grant on \"International Conference On Advances in Structural and Geotechnical Engineering 2025 (ASAGE'25)\" scheduled from 06-Feb-2025 to 08-Feb-2025",
+      "fundingAgency": "SERB, ANRF, India",
+      "type": "Seminar/Symposia Grant",
+      "year": "2025"
+    },
+    {
+      "serial": 7,
+      "title": "Development of Laboratory Scale Bio-Grout Technology Landslide Mitigation",
+      "fundingAgency": "Core Research Grant (CRG), SERB, DST",
+      "type": "Research Grant",
+      "year": "2023"
+    },
+    {
+      "serial": 8,
+      "title": "Microbially Induced Calcite Plugging to Develop Fly Ash-Geotextile Liner in Municipal Landfills",
+      "fundingAgency": "Scheme for Transformational and Advanced Research in Sciences (STARS), Ministry of Education, Indian Institute of Science, Bangalore, India",
+      "type": "Research Grant",
+      "year": "2023–2026"
+    },
+    {
+      "serial": 9,
+      "title": "Development of natural and novel biogrout for ground improvement using Microbially Induced Carbonate Precipitation (MICP) technique",
+      "fundingAgency": "GEO Constech Pvt. Ltd. (Industry Sponsored Research Project)",
+      "type": "Industry Sponsored Research",
+      "year": "2023–2025"
+    },
+    {
+      "serial": 10,
+      "title": "Biocalcification of ganga river sand to enhance the shear strength behaviour for erosion control",
+      "fundingAgency": "Vritika, Accelerate Vigyan, SERB, DST, India",
+      "type": "Research Grant",
+      "year": "2022–2023"
+    },
+    {
+      "serial": 11,
+      "title": "Bio-Inspired Ground Improvement Technique for Granular GeoMaterials: Study of Mechanical behaviour under Extreme Environmental Conditions",
+      "fundingAgency": "SEED Grant, IIT Patna",
+      "grantCode": "OH-35; FY 2020–21",
+      "type": "Seed Grant",
+      "year": "2020–2021"
+    },
+    {
+      "serial": 12,
+      "title": "Bulk Utilization of Marble Waste for Highway Construction – A Geotechnical and Physic-Chemical Study",
+      "fundingAgency": "SEED Grant, Manipal University Jaipur (MUJ)",
+      "grantCode": "MUJ/REGR/1435/07",
+      "type": "Seed Grant",
+      "year": "2017–2019"
+    }
+  ],
+  "mouCollaborations": [
+    {
+      "serial": 1,
+      "role": "Coordinator",
+      "description": "MoU signed between Institute of Engineering (IoE), Tribhuvan University Nepal and Indian Institute of Technology Patna, India",
+      "partnerInstitution": "Institute of Engineering (IoE), Tribhuvan University",
+      "partnerCountry": "Nepal",
+      "date": "16th December 2024"
+    },
+    {
+      "serial": 2,
+      "role": "Coordinator",
+      "description": "MoU signed between Kathmandu University Nepal and Indian Institute of Technology Patna, India",
+      "partnerInstitution": "Kathmandu University",
+      "partnerCountry": "Nepal",
+      "date": "14th December 2024"
+    },
+    {
+      "serial": 3,
+      "role": "Coordinator",
+      "description": "MoU between IIT Patna and Centre for Adivasi Research and Development (CARD), Odisha",
+      "partnerInstitution": "Centre for Adivasi Research and Development (CARD)",
+      "partnerCountry": "India",
+      "date": ""
+    }
+  ],
+  "instituteDeptResponsibilities": [
+    {
+      "serial": 1,
+      "title": "President Gymkhana, Student Affairs, IIT Patna",
+      "period": "July 2025 – till date"
+    },
+    {
+      "serial": 2,
+      "title": "PIC Convocation, IIT Patna",
+      "period": "08.08.2025 – till date"
+    },
+    {
+      "serial": 3,
+      "title": "Member, Core Committee for the CEER and CELS buildings",
+      "period": "18.08.2025 – till date"
+    },
+    {
+      "serial": 4,
+      "title": "Deputy Centre Superintendent (DCS), NEET IIT Patna Centre 01",
+      "period": "02.06.2026; 22.06.2026"
+    },
+    {
+      "serial": 5,
+      "title": "Head, Institute Work Department (IWD), IIT Patna",
+      "period": "18 November 2022 – 13 June 2025"
+    },
+    {
+      "serial": 6,
+      "title": "Coordinator Institute Space Committee",
+      "period": "2024.04.01 – 13.06.2025"
+    },
+    {
+      "serial": 7,
+      "title": "Professor In-charge (PIC)-Student Registration, IIT Patna",
+      "period": "October 2021 – January 2024"
+    },
+    {
+      "serial": 8,
+      "title": "Technical Expert, DST Bihar",
+      "period": "15.06.2022"
+    },
+    {
+      "serial": 9,
+      "title": "Member, Space Audit Committee",
+      "period": "01.02.2023"
+    },
+    {
+      "serial": 10,
+      "title": "Member, Senate, IIT Patna",
+      "period": "08.03.2022 – 21.11.2022"
+    },
+    {
+      "serial": 11,
+      "title": "Departmental Coordinator, Shortlisting Committee, Recruitment for Faculty",
+      "period": "2023-2024; 2024-2025"
+    },
+    {
+      "serial": 12,
+      "title": "Member, Purchase Committee of various sections (Student Affairs, Academic Affairs)",
+      "period": ""
+    },
+    {
+      "serial": 13,
+      "title": "Member, Committee for various administrative/purchase/development activities of New Guest House, IIT Patna",
+      "period": "Feb. 2022 – July 2023"
+    },
+    {
+      "serial": 14,
+      "title": "Member, Animal Welfare Cell (AWC)",
+      "period": "03.01.2023 onwards"
+    },
+    {
+      "serial": 15,
+      "title": "Member, Research Scholar Day, IIT Patna, 2022",
+      "period": "2022"
+    },
+    {
+      "serial": 16,
+      "title": "Professor In-charge (PIC)-NSO, IIT Patna",
+      "period": "July 2020 – August 2021"
+    },
+    {
+      "serial": 17,
+      "title": "Member, Department Academic Program Committee, DAPC",
+      "period": "September 2020 – 2025"
+    },
+    {
+      "serial": 18,
+      "title": "Member, Department Purchase Committee, DPC",
+      "period": "FY: 2020-21; 2021-22 to till date"
+    },
+    {
+      "serial": 19,
+      "title": "Faculty In-charge (FIC), ACE-PG Chapter, DCEE",
+      "period": "May 2020 – 2022"
+    },
+    {
+      "serial": 20,
+      "title": "Faculty Advisor, B. Tech.-2020, DCEE Batch",
+      "period": "2020-2024"
+    },
+    {
+      "serial": 21,
+      "title": "Nodal Officer - IIT Patna for Fit India Movement, Higher Education",
+      "period": "31 March 2021 onwards"
+    },
+    {
+      "serial": 22,
+      "title": "Departmental Coordinator, Shortlisting Committee, Special Drive Recruitment for Assistant Professor",
+      "period": "2022"
+    },
+    {
+      "serial": 23,
+      "title": "Member, Purchase Committee, Furniture Items at Classrooms of Central Lecture Hall in IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 24,
+      "title": "Member, Purchase Committee of Audio-Visual System at Classrooms of Central Lecture Hall in IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 25,
+      "title": "Nodal Officer, Data Base of Research Scholar (DBRS), IIT Patna",
+      "period": "2022"
+    },
+    {
+      "serial": 26,
+      "title": "Nodal Officer, STARS-MoE-IISc Projects of IIT Patna",
+      "period": ""
+    }
   ]
 }

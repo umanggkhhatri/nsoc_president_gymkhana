@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { Home, FlaskConical, BookOpen, FileText, GraduationCap, Activity, Trophy, LayoutGrid, Mail, Menu, X } from 'lucide-react'
+import { Home, FlaskConical, BookOpen, FileText, GraduationCap, Activity, Trophy, LayoutGrid, Mail, Menu, X, Handshake } from 'lucide-react'
 import data from './data.json'
 import iitpLogo from './assets/iitp-logo.png'
 
@@ -7,10 +7,12 @@ import { HomeSection } from './pages/HomeSection'
 import { ResearchSection } from './pages/ResearchSection'
 import { TeachingSection } from './pages/TeachingSection'
 import { PublicationsSection } from './pages/PublicationsSection'
+import { JournalSection } from './pages/JournalSection'
 import { EducationSection } from './pages/EducationSection'
 import { ActivitiesSection } from './pages/ActivitiesSection'
 import { AchievementSection } from './pages/AchievementSection'
 import { MiscellaneousSection } from './pages/MiscellaneousSection'
+import { ServiceSection } from './pages/ServiceSection'
 import { ContactSection } from './pages/ContactSection'
 
 // ── Nav items ──────────────────────────────────────────────────────────────────
@@ -19,9 +21,11 @@ const NAV_ITEMS = [
   { label: 'Research',            icon: FlaskConical },
   { label: 'Teaching',            icon: BookOpen },
   { label: 'Publications',        icon: FileText },
+  { label: 'Books & Papers',      icon: FileText },
   { label: 'Academic Background', icon: GraduationCap },
   { label: 'Activities',          icon: Activity },
   { label: 'Achievement',         icon: Trophy },
+  { label: 'Service & Grants',    icon: Handshake },
   { label: 'Miscellaneous',       icon: LayoutGrid },
   { label: 'Contact',             icon: Mail },
 ]
@@ -32,10 +36,12 @@ function renderSection(section: string) {
     case 'Home':                return <HomeSection />
     case 'Research':            return <ResearchSection />
     case 'Teaching':            return <TeachingSection />
-    case 'Publications':        return <PublicationsSection />
+    case 'Publications':        return <JournalSection />
+    case 'Books & Papers':      return <PublicationsSection />
     case 'Academic Background': return <EducationSection />
     case 'Activities':          return <ActivitiesSection />
     case 'Achievement':         return <AchievementSection />
+    case 'Service & Grants':    return <ServiceSection />
     case 'Miscellaneous':       return <MiscellaneousSection />
     case 'Contact':             return <ContactSection />
     default:                    return <HomeSection />
